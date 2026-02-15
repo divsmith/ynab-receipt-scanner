@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude keystore data from backup -->
+    <exclude domain="sharedpref" path="keystore_preferences.xml" />
+    <!-- Include other app preferences -->
+    <include domain="sharedpref" path="." />
+</full-backup-content>

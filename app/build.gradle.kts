@@ -1,80 +1,36 @@
 plugins {
-    alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
-    alias(libs.plugins.ksp)
-    alias(libs.plugins.hilt)
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+    id("com.google.dagger.hilt.android")
+    id("com.google.devtools.ksp")
+    kotlin("kapt")
 }
 
-import java.util.Properties
-
 android {
-    namespace = "com.ynab.receiptscanner"
-    compileSdk = libs.versions.compileSdk.get().toInt()
+    namespace = "com.receiptscanner"
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.ynab.receiptscanner"
-        minSdk = libs.versions.minSdk.get().toInt()
-        targetSdk = libs.versions.targetSdk.get().toInt()
+        applicationId = "com.receiptscanner"
+        minSdk = 26
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0.0"
 
-        testInstrumentationRunner = "com.ynab.receiptscanner.HiltTestRunner"
-
-        vectorDrawables {
-            useSupportLibrary = true
-        }
-    }
-    
-    // Signing configuration
-    signingConfigs {
-        create("release") {
-            // Load keystore properties if available
-            val keystorePropertiesFile = rootProject.file("keystore.properties")
-            if (keystorePropertiesFile.exists()) {
-                val keystoreProperties = Properties()
-                keystoreProperties.load(keystorePropertiesFile.inputStream())
-                
-                storeFile = file(keystoreProperties["storeFile"] as String)
-                storePassword = keystoreProperties["storePassword"] as String
-                keyAlias = keystoreProperties["keyAlias"] as String
-                keyPassword = keystoreProperties["keyPassword"] as String
-            }
-            // If keystore.properties doesn't exist, signing will fail
-            // User must create keystore.properties from keystore.properties.template
-        }
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        
+        // Make build constants available to tests
+        buildConfigField("int", "MIN_SDK", "${minSdk}")
+        buildConfigField("int", "TARGET_SDK", "${targetSdk}")
     }
 
     buildTypes {
         release {
-            isMinifyEnabled = true
-            isShrinkResources = true
+            isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
-            
-            // Sign with release key if available
-            val keystorePropertiesFile = rootProject.file("keystore.properties")
-            if (keystorePropertiesFile.exists()) {
-                signingConfig = signingConfigs.getByName("release")
-            }
-            
-            // Disable debugging
-            isDebuggable = false
-            isJniDebuggable = false
-            isRenderscriptDebuggable = false
-            
-            // Enable code optimization
-            isMinifyEnabled = true
-            isShrinkResources = true
-        }
-        debug {
-            isMinifyEnabled = false
-            applicationIdSuffix = ".debug"
-            versionNameSuffix = "-debug"
-            
-            // Enable debugging
-            isDebuggable = true
         }
     }
 
@@ -89,103 +45,108 @@ android {
 
     buildFeatures {
         viewBinding = true
+        dataBinding = true
         buildConfig = true
+    }
+
+    testOptions {
+        unitTests {
+            isIncludeAndroidResources = true
+            isReturnDefaultValues = true
+        }
     }
 
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
+            excludes += "META-INF/LICENSE.md"
+            excludes += "META-INF/LICENSE-notice.md"
         }
     }
 }
 
 dependencies {
-    // Modules
-    implementation(project(":core"))
-    implementation(project(":data"))
-    implementation(project(":domain"))
-
-    // Kotlin
-    implementation(libs.kotlin.stdlib)
-
-    // AndroidX
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.androidx.constraintlayout)
-    implementation(libs.androidx.activity.ktx)
-    implementation(libs.androidx.fragment.ktx)
-    implementation(libs.androidx.core.splashscreen)
+    // AndroidX Core
+    implementation("androidx.core:core-ktx:1.12.0")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.11.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     
-    // ViewPager2 for onboarding
-    implementation("androidx.viewpager2:viewpager2:1.0.0")
-    
-    // Preference for settings
-    implementation("androidx.preference:preference-ktx:1.2.1")
-    
-    // SwipeRefreshLayout
-    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
-
-    // Material Design
-    implementation(libs.material)
-
     // Lifecycle
-    implementation(libs.androidx.lifecycle.runtime.ktx)
-    implementation(libs.androidx.lifecycle.viewmodel.ktx)
-    implementation(libs.androidx.lifecycle.livedata.ktx)
-
-    // Navigation
-    implementation(libs.androidx.navigation.fragment.ktx)
-    implementation(libs.androidx.navigation.ui.ktx)
-
-    // Browser (Chrome Custom Tabs)
-    implementation(libs.androidx.browser)
-
-    // Hilt
-    implementation(libs.hilt.android)
-    ksp(libs.hilt.compiler)
-
-    // Coroutines
-    implementation(libs.kotlinx.coroutines.core)
-    implementation(libs.kotlinx.coroutines.android)
-
-    // CameraX
-    implementation(libs.camerax.core)
-    implementation(libs.camerax.camera2)
-    implementation(libs.camerax.lifecycle)
-    implementation(libs.camerax.view)
-
-    // ML Kit
-    implementation(libs.mlkit.text.recognition)
-
-    // WorkManager
-    implementation(libs.androidx.work.runtime.ktx)
-    implementation(libs.androidx.hilt.work)
-    ksp(libs.androidx.hilt.compiler)
-
-    // Testing
-    testImplementation(libs.junit)
-    testImplementation(libs.mockk)
-    testImplementation(libs.truth)
-    testImplementation(libs.kotlinx.coroutines.test)
-    testImplementation(libs.robolectric)
-    testImplementation(libs.turbine)
-    testImplementation(libs.hilt.android.testing)
-    kspTest(libs.hilt.compiler)
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
     
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
-    androidTestImplementation(libs.androidx.espresso.contrib)
-    androidTestImplementation(libs.androidx.espresso.intents)
-    androidTestImplementation(libs.androidx.test.core)
-    androidTestImplementation(libs.androidx.test.runner)
-    androidTestImplementation(libs.androidx.test.rules)
-    androidTestImplementation(libs.truth)
-    androidTestImplementation(libs.mockk.android)
-    androidTestImplementation(libs.kotlinx.coroutines.test)
-    androidTestImplementation(libs.hilt.android.testing)
-    kspAndroidTest(libs.hilt.compiler)
+    // Hilt Dependency Injection
+    implementation("com.google.dagger:hilt-android:2.51")
+    kapt("com.google.dagger:hilt-android-compiler:2.51")
+    
+    // CameraX
+    val cameraxVersion = "1.3.1"
+    implementation("androidx.camera:camera-core:$cameraxVersion")
+    implementation("androidx.camera:camera-camera2:$cameraxVersion")
+    implementation("androidx.camera:camera-lifecycle:$cameraxVersion")
+    implementation("androidx.camera:camera-view:$cameraxVersion")
+    
+    // ML Kit Text Recognition
+    implementation("com.google.mlkit:text-recognition:16.0.0")
+    
+    // Networking - Retrofit, OkHttp, Moshi
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-moshi:2.9.0")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
+    implementation("com.squareup.moshi:moshi:1.15.0")
+    implementation("com.squareup.moshi:moshi-kotlin:1.15.0")
+    ksp("com.squareup.moshi:moshi-kotlin-codegen:1.15.0")
+    
+    // Room Database
+    val roomVersion = "2.6.1"
+    implementation("androidx.room:room-runtime:$roomVersion")
+    implementation("androidx.room:room-ktx:$roomVersion")
+    ksp("androidx.room:room-compiler:$roomVersion")
+    
+    // WorkManager for background sync
+    implementation("androidx.work:work-runtime-ktx:2.9.0")
+    implementation("androidx.hilt:hilt-work:1.1.0")
+    kapt("androidx.hilt:hilt-compiler:1.1.0")
+    
+    // Coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+    
+    // Testing - JUnit 4
+    testImplementation("junit:junit:4.13.2")
+    testImplementation("org.jetbrains.kotlin:kotlin-test:1.9.20")
+    
+    // Testing - Mockk
+    testImplementation("io.mockk:mockk:1.13.8")
+    testImplementation("io.mockk:mockk-android:1.13.8")
+    
+    // Testing - Coroutines
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
+    
+    // Testing - Hilt
+    testImplementation("com.google.dagger:hilt-android-testing:2.51")
+    kaptTest("com.google.dagger:hilt-android-compiler:2.51")
+    
+    // Testing - Robolectric
+    testImplementation("org.robolectric:robolectric:4.11.1")
+    
+    // Testing - AndroidX Test
+    testImplementation("androidx.test:core:1.5.0")
+    testImplementation("androidx.test:runner:1.5.2")
+    testImplementation("androidx.test:rules:1.5.0")
+    testImplementation("androidx.test.ext:junit:1.1.5")
+    
+    // Android Instrumentation Testing - Espresso
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+    androidTestImplementation("com.google.dagger:hilt-android-testing:2.51")
+    kaptAndroidTest("com.google.dagger:hilt-android-compiler:2.51")
 }
 
-// Apply JaCoCo code coverage configuration
-// Temporarily disabled due to incorrect task dependency
-// apply(from = "${rootProject.projectDir}/jacoco.gradle")
+// Allow references to generated code
+kapt {
+    correctErrorTypes = true
+}

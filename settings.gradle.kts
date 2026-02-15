@@ -14,8 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "YNAB Receipt Scanner"
+rootProject.name = "Receipt Scanner"
 include(":app")
-include(":core")
-include(":data")
-include(":domain")

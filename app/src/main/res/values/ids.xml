@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Animator tag IDs for storing animators on views -->
-    <item name="animator_scale_x" type="id" />
-    <item name="animator_scale_y" type="id" />
-    <item name="animator_shimmer" type="id" />
-</resources>
