@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/spacing_md"
+    android:layout_marginVertical="@dimen/spacing_sm"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    app:cardElevation="@dimen/card_elevation">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/card_padding">
+
+        <!-- Receipt thumbnail -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/receipt_thumbnail"
+            android:layout_width="@dimen/receipt_thumbnail_size"
+            android:layout_height="@dimen/receipt_thumbnail_size"
+            android:contentDescription="@string/cd_receipt_thumbnail"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_receipt" />
+
+        <!-- Payee name -->
+        <TextView
+            android:id="@+id/payee_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_md"
+            android:layout_marginEnd="@dimen/spacing_sm"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="?attr/textAppearanceBodyLarge"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/delete_button"
+            app:layout_constraintStart_toEndOf="@id/receipt_thumbnail"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Whole Foods Market" />
+
+        <!-- Amount -->
+        <TextView
+            android:id="@+id/amount_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_xs"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textColor="?attr/colorPrimary"
+            app:layout_constraintEnd_toEndOf="@id/payee_text"
+            app:layout_constraintStart_toStartOf="@id/payee_text"
+            app:layout_constraintTop_toBottomOf="@id/payee_text"
+            tools:text="$42.99" />
+
+        <!-- Date -->
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_xs"
+            android:textAppearance="?attr/textAppearanceBodySmall"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            app:layout_constraintEnd_toEndOf="@id/payee_text"
+            app:layout_constraintStart_toStartOf="@id/payee_text"
+            app:layout_constraintTop_toBottomOf="@id/amount_text"
+            tools:text="Feb 14, 2026" />
+
+        <!-- Sync status badge -->
+        <TextView
+            android:id="@+id/sync_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_sm"
+            android:drawablePadding="@dimen/spacing_xs"
+            android:paddingHorizontal="@dimen/spacing_sm"
+            android:paddingVertical="@dimen/spacing_xs"
+            android:textAppearance="?attr/textAppearanceCaption"
+            android:textColor="@color/white"
+            android:contentDescription="@string/cd_sync_status_badge"
+            app:layout_constraintStart_toStartOf="@id/payee_text"
+            app:layout_constraintTop_toBottomOf="@id/date_text"
+            tools:background="@color/success"
+            tools:text="Synced" />
+
+        <!-- Delete button -->
+        <ImageButton
+            android:id="@+id/delet@dimen/touch_target_min"
+            android:layout_height="@dimen/touch_target_min"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/cd_ItemBackgroundBorderless"
+            android:contentDescription="@string/delete_receipt"
+            android:src="@drawable/ic_delete"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="?attr/colorOnSurfaceVariant" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

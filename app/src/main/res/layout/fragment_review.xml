@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.review.ReviewFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Receipt image -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/image_card"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/receipt_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/receipt_image"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/ic_receipt" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Payee field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/payee_layout"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/payee"
+            app:layout_constraintTop_toBottomOf="@id/image_card">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/payee_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:maxLines="1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Amount field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/amount_layout"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/amount"
+            app:layout_constraintTop_toBottomOf="@id/payee_layout"
+            app:prefixText="$">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/amount_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:maxLines="1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Date button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/date_button"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/select_date"
+            app:icon="@drawable/ic_calendar"
+            app:layout_constraintTop_toBottomOf="@id/amount_layout" />
+
+        <!-- Account button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/account_button"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/select_account"
+            app:icon="@drawable/ic_account"
+            app:layout_constraintTop_toBottomOf="@id/date_button" />
+
+        <!-- Category button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/category_button"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/select_category"
+            app:icon="@drawable/ic_category"
+            app:layout_constraintTop_toBottomOf="@id/account_button" />
+
+        <!-- Submit button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/submit_transaction"
+            app:layout_constraintTop_toBottomOf="@id/category_button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

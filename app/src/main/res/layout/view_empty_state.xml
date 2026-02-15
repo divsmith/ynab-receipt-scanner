@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp">
+
+    <!-- Empty state icon -->
+    <ImageView
+        android:id="@+id/empty_icon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/cd_empty_state_illustration"
+        android:src="@drawable/illustration_empty_receipts"
+        app:layout_constraintBottom_toTopOf="@id/empty_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:src="@drawable/illustration_empty_receipts" />
+
+    <!-- Empty state title -->
+    <TextView
+        android:id="@+id/empty_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:textAppearance="?attr/textAppearanceHeadlineSmall"
+        app:layout_constraintBottom_toTopOf="@id/empty_message"
+        app:layout_constraintTop_toBottomOf="@id/empty_icon"
+        tools:text="No Receipts" />
+
+    <!-- Empty state message -->
+    <TextView
+        android:id="@+id/empty_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textAppearance="?attr/textAppearanceBodyMedium"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        app:layout_constraintBottom_toTopOf="@id/empty_action"
+        app:layout_constraintTop_toBottomOf="@id/empty_title"
+        tools:text="You haven't scanned any receipts yet. Tap the camera button to get started." />
+
+    <!-- Action button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/empty_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/empty_message"
+        tools:text="Scan Receipt"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

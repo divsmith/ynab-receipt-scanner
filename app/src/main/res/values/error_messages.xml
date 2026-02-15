@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Network Errors -->
+    <string name="error_network">No internet connection. Please check your network settings.</string>
+    <string name="error_network_timeout">Request timed out. Please try again.</string>
+    <string name="error_network_slow">Slow network connection detected. This may take a while.</string>
+    
+    <!-- Authentication Errors -->
+    <string name="error_auth">Authentication failed. Please log in again.</string>
+    <string name="error_auth_expired">Your session has expired. Please log in again.</string>
+    <string name="error_auth_invalid_token">Invalid access token. Please log in again.</string>
+    
+    <!-- YNAB API Errors -->
+    <string name="error_ynab_api">Unable to connect to YNAB. Please try again later.</string>
+    <string name="error_ynab_budget_not_found">Budget not found. Please select a valid budget.</string>
+    <string name="error_ynab_account_not_found">Account not found. Please select a valid account.</string>
+    <string name="error_ynab_category_not_found">Category not found. Please select a valid category.</string>
+    <string name="error_rate_limit">Too many requests. Please wait a moment and try again.</string>
+    <string name="error_rate_limit_detail">Rate limit exceeded. Please try again in %d seconds.</string>
+    
+    <!-- OCR Errors -->
+    <string name="error_ocr_failed">Failed to read receipt. Please try again or enter details manually.</string>
+    <string name="error_ocr_no_text">No text detected in image. Please ensure the receipt is clearly visible.</string>
+    <string name="error_ocr_low_confidence">Receipt text is unclear. Please review the extracted information.</string>
+    <string name="error_image_processing">Failed to process image. Please try a different photo.</string>
+    
+    <!-- Validation Errors -->
+    <string name="error_validation_amount">Please enter a valid amount greater than 0.</string>
+    <string name="error_validation_date">Please select a valid date.</string>
+    <string name="error_validation_date_future">Date cannot be in the future.</string>
+    <string name="error_validation_payee">Please enter a payee name.</string>
+    <string name="error_validation_account">Please select an account.</string>
+    <string name="error_validation_category">Please select a category.</string>
+    <string name="error_validation_currency">Invalid currency code.</string>
+    
+    <!-- Storage Errors -->
+    <string name="error_storage">Storage error. Please check available space.</string>
+    <string name="error_storage_full">Device storage is full. Please free up some space.</string>
+    <string name="error_storage_permission">Storage permission required to save receipt images.</string>
+    <string name="error_camera_permission">Camera permission required to scan receipts.</string>
+    
+    <!-- Sync Errors -->
+    <string name="error_sync_failed">Sync failed. Your transaction will be retried automatically.</string>
+    <string name="error_sync_partial">Some transactions failed to sync. They will be retried automatically.</string>
+    <string name="error_sync_conflict">Sync conflict detected. Please review your transactions.</string>
+    
+    <!-- Server Errors -->
+    <string name="error_server">Server error. Please try again later.</string>
+    <string name="error_server_maintenance">Server is under maintenance. Please try again later.</string>
+    <string name="error_server_unreachable">Unable to reach server. Please check your connection.</string>
+    
+    <!-- Database Errors -->
+    <string name="error_database">Database error. Please restart the app.</string>
+    <string name="error_database_migration">Database migration failed. Please reinstall the app.</string>
+    
+    <!-- Generic Errors -->
+    <string name="error_unknown">An unexpected error occurred. Please try again.</string>
+    <string name="error_critical">A critical error occurred. Please restart the app.</string>
+    
+    <!-- User Actions -->
+    <string name="action_retry">Retry</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_report_bug">Report Bug</string>
+    <string name="action_contact_support">Contact Support</string>
+    <string name="action_settings">Go to Settings</string>
+    
+    <!-- Success Messages -->
+    <string name="success_transaction_saved">Transaction saved successfully</string>
+    <string name="success_transaction_synced">Transaction synced to YNAB</string>
+    <string name="success_sync_complete">Sync completed successfully</string>
+    <string name="success_sync_partial">Synced %d of %d transactions</string>
+</resources>

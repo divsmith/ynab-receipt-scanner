@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YNAB Escáner de Recibos</string>
+    
+    <!-- Common -->
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="retry">Reintentar</string>
+    <string name="loading">Cargando…</string>
+    <string name="error">Error</string>
+    <string name="search">Buscar</string>
+    <string name="clear">Limpiar</string>
+    <string name="next">Siguiente</string>
+    <string name="skip">Omitir</string>
+    <string name="get_started">Comenzar</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_scan">Escanear</string>
+    <string name="nav_settings">Ajustes</string>
+    <string name="nav_home_desc">Ver recibos</string>
+    <string name="nav_scan_desc">Escanear recibo</string>
+    <string name="nav_settings_desc">Configuración de la aplicación</string>
+    
+    <!-- Home Screen -->
+    <string name="scan_receipt">Escanear Recibo</string>
+    <string name="filter_receipts">Filtrar Recibos</string>
+    <string name="filter_all">Todos los Recibos</string>
+    <string name="filter_pending">Pendientes</string>
+    <string name="filter_syncing">Sincronizando</string>
+    <string name="filter_synced">Sincronizados</string>
+    <string name="filter_error">Error</string>
+    <string name="delete_receipt">Eliminar Recibo</string>
+    <string name="receipt_thumbnail">Miniatura del recibo</string>
+    <string name="unknown_payee">Beneficiario Desconocido</string>
+    <string name="unknown_amount">—</string>
+    <string name="unknown_date">Sin fecha</string>
+    
+    <!-- Sync Status -->
+    <string name="status_pending">Pendiente</string>
+    <string name="status_syncing">Sincronizando</string>
+    <string name="status_synced">Sincronizado</string>
+    <string name="status_error">Error</string>
+    <string name="sync_status">Estado de sincronización</string>
+    
+    <!-- Review Screen -->
+    <string name="review_title">Revisar Recibo</string>
+    <string name="receipt_image">Imagen del recibo</string>
+    <string name="payee">Beneficiario</string>
+    <string name="amount">Importe</string>
+    <string name="select_date">Seleccionar Fecha</string>
+    <string name="select_account">Seleccionar Cuenta</string>
+    <string name="select_category">Seleccionar Categoría (Opcional)</string>
+    <string name="submit_transaction">Enviar a YNAB</string>
+    <string name="transaction_submitted">Transacción enviada con éxito</string>
+    
+    <!-- Account & Category Picker -->
+    <string name="account_icon">Icono de cuenta</string>
+    
+    <!-- Settings -->
+    <string name="pref_category_account">Cuenta</string>
+    <string name="pref_category_sync">Sincronización</string>
+    <string name="pref_category_appearance">Apariencia</string>
+    <string name="pref_category_storage">Almacenamiento</string>
+    <string name="pref_category_about">Acerca de</string>
+    
+    <string name="pref_account_info">Información de la Cuenta</string>
+    <string name="sign_out">Cerrar Sesión</string>
+    <string name="sign_out_title">¿Cerrar Sesión?</string>
+    <string name="sign_out_message">¿Está seguro de que desea cerrar sesión? Los recibos pendientes no se sincronizarán.</string>
+    
+    <string name="pref_auto_sync">Sincronización Automática</string>
+    <string name="pref_auto_sync_summary">Sincronizar recibos automáticamente con YNAB</string>
+    
+    <string name="pref_sync_interval">Intervalo de Sincronización</string>
+    <string name="pref_sync_on_metered">Sincronizar con Datos Móviles</string>
+    <string name="pref_sync_on_metered_summary">Permitir sincronización al usar datos móviles</string>
+    <string name="pref_last_sync">Última Sincronización</string>
+    <string name="never">Nunca</string>
+    
+    <string name="pref_image_retention">Conservar Imágenes de Recibos</string>
+    <string name="pref_image_retention_summary">Conservar imágenes de recibos después de sincronizar</string>
+    
+    <string name="pref_theme">Tema</string>
+    
+    <string name="pref_clear_cache">Limpiar Caché</string>
+    <string name="pref_clear_cache_summary">Eliminar archivos temporales y datos en caché</string>
+    <string name="clear_cache_title">¿Limpiar Caché?</string>
+    <string name="clear_cache_message">Esto eliminará todos los archivos temporales y datos en caché. Las imágenes de recibos no se verán afectadas.</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_image">Ilustración de incorporación</string>
+    
+    <!-- Empty States -->
+    <string name="empty_state">Estado vacío</string>
+    <string name="empty_receipts_title">No Hay Recibos</string>
+    <string name="empty_receipts_message">Aún no ha escaneado ningún recibo. Presione el botón de cámara para comenzar.</string>
+    
+    <!-- Permissions -->
+    <string name="camera_permission_required">Se requiere permiso de cámara para escanear recibos</string>
+    <string name="storage_permission_required">Se requiere permiso de almacenamiento para guardar recibos</string>
+    
+    <!-- Error Messages -->
+    <string name="error_network">Error de red. Por favor, verifique su conexión.</string>
+    <string name="error_unknown">Ocurrió un error desconocido</string>
+    
+    <!-- Authentication -->
+    <string name="auth_signed_out">Iniciar sesión en YNAB</string>
+    <string name="auth_signing_in">Iniciando sesión…</string>
+    <string name="auth_sign_in_oauth">Iniciar sesión con YNAB</string>
+    <string name="auth_sign_in_pat">Usar Token de Acceso Personal</string>
+    <string name="auth_description">Conecte su cuenta de YNAB para sincronizar automáticamente recibos y transacciones.</string>
+    <string name="auth_pat_info">El Token de Acceso Personal es solo para pruebas. Se recomienda OAuth para uso en producción.</string>
+    <string name="auth_retry">Intentar de Nuevo</string>
+    
+    <!-- About Screen -->
+    <string name="about_title">Acerca de</string>
+    <string name="about_description">Escanee recibos y sincronícelos automáticamente con su presupuesto YNAB usando tecnología OCR inteligente.</string>
+    <string name="about_information">Información</string>
+    <string name="about_privacy_policy">Política de Privacidad</string>
+    <string name="about_terms_of_service">Términos de Servicio</string>
+    <string name="about_open_source">Código Abierto</string>
+    <string name="about_view_on_github">Ver en GitHub</string>
+    <string name="about_open_source_licenses">Licencias de Código Abierto</string>
+    <string name="about_support">Soporte</string>
+    <string name="about_contact_support">Contactar Soporte</string>
+    <string name="about_ynab">YNAB</string>
+    <string name="about_ynab_website">Visitar Sitio Web de YNAB</string>
+    <string name="about_disclaimer">Esta aplicación es un proyecto independiente y no está oficialmente afiliada ni respaldada por You Need A Budget LLC (YNAB). YNAB es una marca registrada de You Need A Budget LLC.</string>
+    <string name="about_copyright">© 2026 Colaboradores de YNAB Escáner de Recibos. Código abierto bajo Licencia MIT.</string>
+</resources>

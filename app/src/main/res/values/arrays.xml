@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme options -->
+    <string-array name="theme_entries">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>System Default</item>
+    </string-array>
+    
+    <string-array name="theme_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>system</item>
+    </string-array>
+    
+    <!-- Sync interval options -->
+    <string-array name="sync_interval_entries">
+        <item>Every 15 minutes</item>
+        <item>Every hour</item>
+        <item>Every 4 hours</item>
+        <item>Every 12 hours</item>
+        <item>Manual only</item>
+    </string-array>
+    
+    <string-array name="sync_interval_values">
+        <item>15</item>
+        <item>60</item>
+        <item>240</item>
+        <item>720</item>
+        <item>0</item>
+    </string-array>
+</resources>

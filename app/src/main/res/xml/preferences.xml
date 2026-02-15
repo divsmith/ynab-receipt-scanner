@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Account Section -->
+    <PreferenceCategory
+        android:title="@string/pref_category_account"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="account_info"
+            android:icon="@drawable/ic_account"
+            android:selectable="false"
+            android:summary="@string/loading"
+            android:title="@string/pref_account_info"
+            app:iconSpaceReserved="true" />
+
+        <Preference
+            android:key="sign_out"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/sign_out"
+            app:iconSpaceReserved="true" />
+
+    </PreferenceCategory>
+
+    <!-- Sync Section -->
+    <PreferenceCategory
+        android:title="@string/pref_category_sync"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="auto_sync"
+            android:summary="@string/pref_auto_sync_summary"
+            android:title="@string/pref_auto_sync"
+            app:iconSpaceReserved="false" />
+        
+        <ListPreference
+            android:defaultValue="60"
+            android:entries="@array/sync_interval_entries"
+            android:entryValues="@array/sync_interval_values"
+            android:key="sync_interval"
+            android:summary="%s"
+            android:title="@string/pref_sync_interval"
+            android:dependency="auto_sync"
+            app:iconSpaceReserved="false" />
+        
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="sync_on_metered"
+            android:summary="@string/pref_sync_on_metered_summary"
+            android:title="@string/pref_sync_on_metered"
+            android:dependency="auto_sync"
+            app:iconSpaceReserved="false" />
+        
+        <Preference
+            android:key="last_sync_time"
+            android:selectable="false"
+            android:summary="@string/never"
+            android:title="@string/pref_last_sync"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="image_retention"
+            android:summary="@string/pref_image_retention_summary"
+            android:title="@string/pref_image_retention"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <!-- Appearance Section -->
+    <PreferenceCategory
+        android:title="@string/pref_category_appearance"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:defaultValue="system"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            android:key="theme"
+            android:summary="%s"
+            android:title="@string/pref_theme"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <!-- Storage Section -->
+    <PreferenceCategory
+        android:title="@string/pref_category_storage"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="clear_cache"
+            android:summary="@string/pref_clear_cache_summary"
+            android:title="@string/pref_clear_cache"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <!-- About Section -->
+    <PreferenceCategory
+        android:title="@string/pref_category_about"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="about"
+            android:selectable="false"
+            android:summary="Version 1.0.0"
+            android:title="@string/app_name"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

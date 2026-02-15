@@ -1,0 +1,129 @@
+[
+  {
+    "filename": "receipt_001.jpg",
+    "description": "Coffee shop receipt - standard format",
+    "payee": "Starbucks Coffee",
+    "amount": 14.70,
+    "date": "2024-01-15",
+    "currency": "USD",
+    "tax": 1.32,
+    "lineItems": [
+      {
+        "description": "Grande Latte",
+        "quantity": 1,
+        "unitPrice": 4.50,
+        "totalPrice": 4.50
+      },
+      {
+        "description": "Croissant",
+        "quantity": 2,
+        "unitPrice": 3.25,
+        "totalPrice": 6.50
+      }
+    ]
+  },
+  {
+    "filename": "receipt_002.jpg",
+    "description": "Grocery store receipt - multiple items",
+    "payee": "Whole Foods Market",
+    "amount": 87.43,
+    "date": "2024-01-16",
+    "currency": "USD",
+    "tax": 7.23,
+    "lineItems": [
+      {
+        "description": "Organic Bananas",
+        "quantity": 3,
+        "unitPrice": 2.99,
+        "totalPrice": 8.97
+      },
+      {
+        "description": "Almond Milk",
+        "quantity": 2,
+        "unitPrice": 4.99,
+        "totalPrice": 9.98
+      },
+      {
+        "description": "Whole Wheat Bread",
+        "quantity": 1,
+        "unitPrice": 5.49,
+        "totalPrice": 5.49
+      }
+    ]
+  },
+  {
+    "filename": "receipt_003.jpg",
+    "description": "Restaurant receipt - with tip",
+    "payee": "The Italian Kitchen",
+    "amount": 65.30,
+    "date": "2024-01-17",
+    "currency": "USD",
+    "tax": 5.50,
+    "lineItems": [
+      {
+        "description": "Margherita Pizza",
+        "quantity": 1,
+        "unitPrice": 18.00,
+        "totalPrice": 18.00
+      },
+      {
+        "description": "Caesar Salad",
+        "quantity": 1,
+        "unitPrice": 12.00,
+        "totalPrice": 12.00
+      },
+      {
+        "description": "House Wine",
+        "quantity": 2,
+        "unitPrice": 10.00,
+        "totalPrice": 20.00
+      }
+    ]
+  },
+  {
+    "filename": "receipt_004.jpg",
+    "description": "Gas station receipt - simple format",
+    "payee": "Shell Gas Station",
+    "amount": 52.10,
+    "date": "2024-01-18",
+    "currency": "USD",
+    "tax": 0.00,
+    "lineItems": [
+      {
+        "description": "Regular Unleaded",
+        "quantity": 12.5,
+        "unitPrice": 4.17,
+        "totalPrice": 52.10
+      }
+    ]
+  },
+  {
+    "filename": "receipt_005.jpg",
+    "description": "Retail store receipt - clothing",
+    "payee": "Target",
+    "amount": 124.99,
+    "date": "2024-01-19",
+    "currency": "USD",
+    "tax": 10.67,
+    "lineItems": [
+      {
+        "description": "Men's T-Shirt",
+        "quantity": 3,
+        "unitPrice": 19.99,
+        "totalPrice": 59.97
+      },
+      {
+        "description": "Jeans",
+        "quantity": 1,
+        "unitPrice": 39.99,
+        "totalPrice": 39.99
+      },
+      {
+        "description": "Socks 6-pack",
+        "quantity": 1,
+        "unitPrice": 14.36,
+        "totalPrice": 14.36
+      }
+    ]
+  }
+]

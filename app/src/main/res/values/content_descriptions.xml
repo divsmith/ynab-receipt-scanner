@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigation -->
+    <string name="cd_navigation_home">Navigate to home screen</string>
+    <string name="cd_navigation_scan">Navigate to scan screen</string>
+    <string name="cd_navigation_settings">Navigate to settings</string>
+    
+    <!-- Receipt Items -->
+    <string name="cd_receipt_thumbnail">Receipt image thumbnail</string>
+    <string name="cd_receipt_image">Full receipt image</string>
+    <string name="cd_sync_status_badge">Sync status indicator</string>
+    <string name="cd_delete_receipt">Delete this receipt</string>
+    <string name="cd_edit_receipt">Edit receipt details</string>
+    
+    <!-- Actions -->
+    <string name="cd_scan_button">Scan new receipt</string>
+    <string name="cd_camera_button">Open camera to scan receipt</string>
+    <string name="cd_capture_photo">Capture photo of receipt</string>
+    <string name="cd_filter_receipts">Filter receipts by status</string>
+    <string name="cd_search_receipts">Search receipts</string>
+    
+    <!-- Account & Category -->
+    <string name="cd_account_icon">Account type icon</string>
+    <string name="cd_account_picker">Select account</string>
+    <string name="cd_category_picker">Select category</string>
+    <string name="cd_date_picker">Select transaction date</string>
+    
+    <!-- Input Fields -->
+    <string name="cd_payee_input">Enter payee name</string>
+    <string name="cd_amount_input">Enter transaction amount</string>
+    <string name="cd_memo_input">Enter transaction memo</string>
+    
+    <!-- Icons -->
+    <string name="cd_icon_check">Checkmark icon</string>
+    <string name="cd_icon_error">Error icon</string>
+    <string name="cd_icon_sync">Synchronization icon</string>
+    <string name="cd_icon_pending">Pending status icon</string>
+    
+    <!-- Empty States -->
+    <string name="cd_empty_state_illustration">Empty state illustration</string>
+    <string name="cd_no_receipts_illustration">No receipts illustration</string>
+    <string name="cd_no_connection_illustration">No internet connection illustration</string>
+    <string name="cd_error_illustration">Error illustration</string>
+    
+    <!-- Onboarding -->
+    <string name="cd_onboarding_scan_illustration">Scan receipts illustration</string>
+    <string name="cd_onboarding_review_illustration">Review and submit illustration</string>
+    <string name="cd_onboarding_sync_illustration">Auto-sync illustration</string>
+    
+    <!-- Settings -->
+    <string name="cd_sign_out_button">Sign out of YNAB account</string>
+    <string name="cd_theme_selector">Select app theme</string>
+    <string name="cd_clear_cache_button">Clear app cache</string>
+    
+    <!-- Dialogs -->
+    <string name="cd_loading_spinner">Loading indicator</string>
+    <string name="cd_close_dialog">Close dialog</string>
+    
+    <!-- App Branding -->
+    <string name="cd_app_icon">YNAB Receipt Scanner app icon</string>
+    <string name="cd_ynab_logo">YNAB logo</string>
+    
+    <!-- About Screen -->
+    <string name="cd_about_privacy_policy">View privacy policy</string>
+    <string name="cd_about_terms">View terms of service</string>
+    <string name="cd_about_github">View source code on GitHub</string>
+    <string name="cd_about_licenses">View open source licenses</string>
+    <string name="cd_about_contact">Contact support via email</string>
+    <string name="cd_about_ynab">Visit YNAB website</string>
+</resources>

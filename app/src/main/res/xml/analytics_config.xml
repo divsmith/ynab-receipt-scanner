@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory android:title="Analytics &amp; Privacy">
+        
+        <SwitchPreferenceCompat
+            android:key="analytics_enabled"
+            android:title="Analytics"
+            android:summary="Help improve the app by sharing anonymous usage data"
+            android:defaultValue="true" />
+        
+        <SwitchPreferenceCompat
+            android:key="crash_reporting_enabled"
+            android:title="Crash Reporting"
+            android:summary="Automatically send crash reports to help fix bugs"
+            android:defaultValue="true" />
+        
+        <Preference
+            android:key="privacy_policy"
+            android:title="Privacy Policy"
+            android:summary="View our privacy policy" />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Data Collection">
+        
+        <Preference
+            android:key="data_collected"
+            android:title="What data is collected?"
+            android:summary="View details about collected data" />
+        
+        <Preference
+            android:key="delete_analytics_data"
+            android:title="Delete Analytics Data"
+            android:summary="Request deletion of all collected analytics data" />
+        
+    </PreferenceCategory>
+    
+</PreferenceScreen>

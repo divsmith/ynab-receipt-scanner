@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Cloud shape -->
+    <path
+        android:fillColor="@color/text_hint"
+        android:pathData="M60,110 C60,95 70,85 85,85 C90,70 100,60 115,60 C130,60 140,70 145,85 C160,85 170,95 170,110 C170,125 160,135 145,135 L60,135 C45,135 35,125 35,110 C35,95 45,85 60,85 Z" />
+    
+    <!-- Broken connection X -->
+    <path
+        android:strokeColor="@color/error"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:pathData="M80,95 L120,125" />
+    <path
+        android:strokeColor="@color/error"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:pathData="M120,95 L80,125" />
+    
+    <!-- WiFi signal (disconnected) -->
+    <path
+        android:strokeColor="@color/text_secondary"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M145,145 Q150,150 155,145"
+        android:fillType="nonZero" />
+</vector>
