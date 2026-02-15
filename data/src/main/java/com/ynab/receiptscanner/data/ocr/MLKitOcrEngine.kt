@@ -3,7 +3,6 @@ package com.ynab.receiptscanner.data.ocr
 import android.graphics.Bitmap
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.text.TextRecognition
-import com.google.mlkit.vision.text.latin.TextRecognizerOptions
 import com.ynab.receiptscanner.core.util.Result
 import com.ynab.receiptscanner.domain.model.OcrResult
 import com.ynab.receiptscanner.domain.model.ReceiptField
@@ -21,7 +20,7 @@ class MLKitOcrEngine @Inject constructor(
     private val imagePreprocessor: ImagePreprocessor
 ) : OcrEngine {
     
-    private val recognizer = TextRecognition.getClient(TextRecognizerOptions.DEFAULT_OPTIONS)
+    private val recognizer = TextRecognition.getClient()
     
     override suspend fun extractText(bitmap: Bitmap): Result<OcrResult> {
         return try {
@@ -59,7 +58,7 @@ class MLKitOcrEngine @Inject constructor(
                             bottom = it.bottom.toFloat()
                         )
                     } ?: ReceiptField.BoundingBox(0f, 0f, 0f, 0f),
-                    confidence = block.confidence ?: 0.5f
+                    confidence = 0.8f // ML Kit doesn't provide confidence per block
                 )
             }
             
@@ -75,7 +74,7 @@ class MLKitOcrEngine @Inject constructor(
                                 bottom = it.bottom.toFloat()
                             )
                         } ?: ReceiptField.BoundingBox(0f, 0f, 0f, 0f),
-                        confidence = line.confidence ?: 0.5f
+                        confidence = 0.8f // ML Kit doesn't provide confidence per line
                     )
                 }
             }
@@ -93,7 +92,7 @@ class MLKitOcrEngine @Inject constructor(
                                     bottom = it.bottom.toFloat()
                                 )
                             } ?: ReceiptField.BoundingBox(0f, 0f, 0f, 0f),
-                            confidence = element.confidence ?: 0.5f
+                            confidence = 0.8f // ML Kit doesn't provide confidence per element
                         )
                     }
                 }

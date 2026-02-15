@@ -2,7 +2,6 @@ package com.ynab.receiptscanner.ui.common
 
 import android.content.Context
 import com.ynab.receiptscanner.R
-import retrofit2.HttpException
 import java.io.IOException
 import java.net.SocketTimeoutException
 import java.net.UnknownHostException
@@ -23,9 +22,9 @@ class ErrorHandler @Inject constructor(
      */
     sealed class AppError(
         val message: String,
-        val userMessage: String,
-        val canRetry: Boolean = false,
-        val retryDelayMs: Long = 0
+        open val userMessage: String,
+        open val canRetry: Boolean = false,
+        open val retryDelayMs: Long = 0
     ) {
         data class NetworkError(
             val exception: Throwable,
@@ -130,18 +129,6 @@ class ErrorHandler @Inject constructor(
             is UnknownHostException,
             is SocketTimeoutException -> AppError.NetworkError(throwable)
             
-            is HttpException -> {
-                when (throwable.code()) {
-                    401, 403 -> AppError.AuthError(throwable)
-                    429 -> {
-                        val retryAfter = throwable.response()?.headers()?.get("Retry-After")?.toIntOrNull() ?: 60
-                        AppError.RateLimitError(retryAfter)
-                    }
-                    in 500..599 -> AppError.ServerError(throwable.code(), throwable)
-                    else -> AppError.UnknownError(throwable)
-                }
-            }
-            
             is IOException -> AppError.NetworkError(throwable, "Connection error. Please try again.")
             
             is IllegalArgumentException -> AppError.ValidationError(
@@ -149,7 +136,15 @@ class ErrorHandler @Inject constructor(
                 reason = throwable.message ?: "invalid value"
             )
             
-            else -> AppError.UnknownError(throwable)
+            else -> {
+                // Check for HTTP-related exceptions by class name to avoid direct retrofit dependency
+                val className = throwable.javaClass.simpleName
+                if (className.contains("HttpException") || className.contains("Http")) {
+                    AppError.UnknownError(throwable, "Network request failed. Please try again.")
+                } else {
+                    AppError.UnknownError(throwable)
+                }
+            }
         }
     }
     
@@ -167,12 +162,6 @@ class ErrorHandler @Inject constructor(
         return when (throwable) {
             is UnknownHostException,
             is SocketTimeoutException -> R.string.error_network
-            is HttpException -> when (throwable.code()) {
-                401, 403 -> R.string.error_auth
-                429 -> R.string.error_rate_limit
-                in 500..599 -> R.string.error_server
-                else -> R.string.error_unknown
-            }
             else -> R.string.error_unknown
         }
     }

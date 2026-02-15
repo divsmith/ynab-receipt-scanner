@@ -1,4 +1,4 @@
-package com.ynab.receiptscanner.domain.usecase
+package com.ynab.receiptscanner.usecase
 
 import com.ynab.receiptscanner.core.util.Result
 import com.ynab.receiptscanner.data.repository.DuplicateDetector
@@ -37,6 +37,7 @@ class CheckDuplicateTransactionUseCase @Inject constructor(
                 Result.Success(matches)
             }
             is Result.Error -> result
+            is Result.Loading -> Result.Loading
         }
     }
 }

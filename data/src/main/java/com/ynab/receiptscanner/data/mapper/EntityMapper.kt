@@ -159,17 +159,22 @@ fun Receipt.toPendingTransaction(
         return null
     }
     
+    // Capture non-null values for smart cast
+    val receiptPayee = payee!!
+    val receiptAmount = amount!!
+    val receiptDate = date!!
+    
     // Convert amount to YNAB milliunits (amount * 1000)
-    val amountInMilliunits = (amount * 1000).toLong()
+    val amountInMilliunits = (receiptAmount * 1000).toLong()
     
     return PendingTransactionEntity(
         id = java.util.UUID.randomUUID().toString(),
         receiptId = id,
         accountId = accountId,
         categoryId = categoryId,
-        date = date,
+        date = receiptDate,
         amount = amountInMilliunits,
-        payee = payee,
+        payee = receiptPayee,
         memo = buildMemo(),
         cleared = "uncleared",
         approved = false,

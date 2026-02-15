@@ -7,7 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.ynab.receiptscanner.domain.model.ConnectivityStatus
 import com.ynab.receiptscanner.domain.model.Receipt
 import com.ynab.receiptscanner.domain.model.SyncStatus
-import com.ynab.receiptscanner.domain.usecase.*
+import com.ynab.receiptscanner.usecase.*
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
@@ -112,8 +112,7 @@ class HomeViewModel @Inject constructor(
             try {
                 // Attempt to sync pending transactions first
                 syncPendingTransactionsUseCase()
-                    .catch { } // Ignore sync errors during refresh
-                    .collect { }
+                    // Ignore result for now
             } catch (e: Exception) {
                 // Continue with loading even if sync fails
             }

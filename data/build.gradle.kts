@@ -34,6 +34,10 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+
+    buildFeatures {
+        buildConfig = true
+    }
 }
 
 dependencies {
@@ -56,6 +60,9 @@ dependencies {
     // Security
     implementation(libs.androidx.security.crypto)
 
+    // ML Kit Text Recognition
+    implementation(libs.mlkit.text.recognition)
+
     // Retrofit
     implementation(libs.retrofit)
     implementation(libs.retrofit.converter.moshi)
@@ -68,6 +75,7 @@ dependencies {
 
     // Coroutines
     implementation(libs.kotlinx.coroutines.core)
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3")
 
     // Testing
     testImplementation(libs.junit)

@@ -103,10 +103,6 @@
     <string name="camera_permission_required">Camera permission is required to scan receipts</string>
     <string name="storage_permission_required">Storage permission is required to save receipts</string>
     
-    <!-- Error Messages -->
-    <string name="error_network">Network error. Please check your connection.</string>
-    <string name="error_unknown">An unknown error occurred</string>
-    
     <!-- Authentication -->
     <string name="auth_signed_out">Sign in to YNAB</string>
     <string name="auth_signing_in">Signing in…</string>

@@ -53,5 +53,5 @@ object OAuthConfig {
     /**
      * OAuth client secret (not used for mobile apps with PKCE)
      */
-    const val CLIENT_SECRET: String? = null
+    val CLIENT_SECRET: String? = null
 }

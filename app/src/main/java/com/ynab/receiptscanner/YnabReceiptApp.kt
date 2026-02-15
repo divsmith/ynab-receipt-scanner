@@ -84,12 +84,11 @@ class YnabReceiptApp : Application(), Configuration.Provider {
         Log.i(TAG, "YNAB Receipt Scanner initialized successfully")
     }
     
-    override fun getWorkManagerConfiguration(): Configuration {
-        return Configuration.Builder()
+    override val workManagerConfiguration: Configuration
+        get() = Configuration.Builder()
             .setWorkerFactory(workerFactory)
             .setMinimumLoggingLevel(if (BuildConfig.DEBUG) Log.DEBUG else Log.INFO)
             .build()
-    }
     
     /**
      * Enable StrictMode for debug builds

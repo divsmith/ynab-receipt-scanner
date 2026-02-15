@@ -1,4 +1,4 @@
-package com.ynab.receiptscanner.domain.usecase
+package com.ynab.receiptscanner.usecase
 
 import android.util.Log
 import com.ynab.receiptscanner.domain.model.ConnectivityStatus

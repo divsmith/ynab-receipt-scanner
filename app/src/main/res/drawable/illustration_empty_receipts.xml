@@ -11,36 +11,31 @@
         android:strokeWidth="3"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
-        android:pathData="M60,40 L140,40 L140,160 L60,160 Z"
-        android:strokeDasharray="8,4" />
+        android:pathData="M60,40 L140,40 L140,160 L60,160 Z" />
     
     <!-- Dashed receipt tear at bottom -->
     <path
         android:strokeColor="@color/text_hint"
         android:strokeWidth="3"
         android:strokeLineCap="round"
-        android:pathData="M60,160 L65,155 L70,160 L75,155 L80,160 L85,155 L90,160 L95,155 L100,160 L105,155 L110,160 L115,155 L120,160 L125,155 L130,160 L135,155 L140,160"
-        android:strokeDasharray="8,4" />
+        android:pathData="M60,160 L65,155 L70,160 L75,155 L80,160 L85,155 L90,160 L95,155 L100,160 L105,155 L110,160 L115,155 L120,160 L125,155 L130,160 L135,155 L140,160" />
     
     <!-- Receipt lines (faded) -->
     <path
         android:strokeColor="@color/text_hint"
         android:strokeWidth="2"
         android:strokeLineCap="round"
-        android:pathData="M75,65 L125,65"
-        android:strokeDasharray="4,3" />
+        android:pathData="M75,65 L125,65" />
     <path
         android:strokeColor="@color/text_hint"
         android:strokeWidth="2"
         android:strokeLineCap="round"
-        android:pathData="M75,85 L115,85"
-        android:strokeDasharray="4,3" />
+        android:pathData="M75,85 L115,85" />
     <path
         android:strokeColor="@color/text_hint"
         android:strokeWidth="2"
         android:strokeLineCap="round"
-        android:pathData="M75,105 L120,105"
-        android:strokeDasharray="4,3" />
+        android:pathData="M75,105 L120,105" />
     
     <!-- Camera icon in center -->
     <path

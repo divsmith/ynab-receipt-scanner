@@ -75,7 +75,11 @@ class TransactionSyncManager @Inject constructor(
                     }
                     is Result.Error -> {
                         // Update retry count and status
-                        handleSyncError(pending, result.exception)
+                        handleSyncError(pending, result.exception as? Exception ?: Exception(result.exception))
+                    }
+                    is Result.Loading -> {
+                        // Should not happen in this context
+                        Log.w(TAG, "Unexpected Loading state for transaction ${pending.id}")
                     }
                 }
             }
@@ -205,6 +209,10 @@ class TransactionSyncManager @Inject constructor(
                     }
                     is Result.Error -> {
                         handleSyncError(pending, Exception("Retry failed"))
+                    }
+                    is Result.Loading -> {
+                        // Should not happen in this context
+                        Log.w(TAG, "Unexpected Loading state during retry for ${pending.id}")
                     }
                 }
                 

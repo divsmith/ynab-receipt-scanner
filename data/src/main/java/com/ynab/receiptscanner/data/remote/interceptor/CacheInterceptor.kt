@@ -3,6 +3,7 @@ package com.ynab.receiptscanner.data.remote.interceptor
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
+import dagger.hilt.android.qualifiers.ApplicationContext
 import okhttp3.CacheControl
 import okhttp3.Interceptor
 import okhttp3.Response
@@ -16,7 +17,7 @@ import javax.inject.Singleton
  */
 @Singleton
 class CacheInterceptor @Inject constructor(
-    private val context: Context
+    @ApplicationContext private val context: Context
 ) : Interceptor {
     
     companion object {

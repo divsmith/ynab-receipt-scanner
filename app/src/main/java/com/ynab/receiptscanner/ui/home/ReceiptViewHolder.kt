@@ -98,7 +98,7 @@ class ReceiptViewHolder(
                     R.drawable.ic_check, 0, 0, 0
                 )
             }
-            SyncStatus.ERROR -> {
+            SyncStatus.FAILED -> {
                 binding.syncBadge.text = context.getString(R.string.status_error)
                 binding.syncBadge.setBackgroundColor(
                     ContextCompat.getColor(context, R.color.error)

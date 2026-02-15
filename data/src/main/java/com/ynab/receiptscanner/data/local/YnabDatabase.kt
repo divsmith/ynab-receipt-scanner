@@ -44,6 +44,9 @@ abstract class YnabDatabase : RoomDatabase() {
     
     /**
      * Access to PendingTransaction data operations
+     */
+    abstract fun pendingTransactionDao(): PendingTransactionDao
+    
     /**
      * Access to Budget data operations
      */
@@ -58,9 +61,6 @@ abstract class YnabDatabase : RoomDatabase() {
      * Access to Category data operations
      */
     abstract fun categoryDao(): CategoryDao
-    
-     */
-    abstract fun pendingTransactionDao(): PendingTransactionDao
     
     companion object {
         private const val DATABASE_NAME = "ynab_receipt_scanner.db"

@@ -7,6 +7,7 @@ import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 import com.squareup.moshi.Moshi
 import com.ynab.receiptscanner.core.util.Result
+import com.ynab.receiptscanner.data.di.BaseOkHttpClient
 import com.ynab.receiptscanner.data.local.preference.AuthPreferences
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -25,7 +26,7 @@ import javax.inject.Singleton
 @Singleton
 class YnabAuthManager @Inject constructor(
     private val authPreferences: AuthPreferences,
-    private val okHttpClient: OkHttpClient,
+    @BaseOkHttpClient private val okHttpClient: OkHttpClient,
     private val moshi: Moshi
 ) {
     

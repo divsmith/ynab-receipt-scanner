@@ -49,8 +49,8 @@ class YnabRepositoryImpl @Inject constructor(
                     val budgets = response.body()!!.data.budgets.map { ynabMapper.mapBudgetToDomain(it) }
                     
                     // Cache to database
-                    val entities = budgets.map { entityMapper.budgetToEntity(it) }
-                    budgetDao.insertBudgets(entitit.toEntity(
+                    val entities = budgets.map { it.toEntity() }
+                    budgetDao.insertBudgets(entities)
                     
                     Result.Success(budgets)
                 } else {
@@ -270,6 +270,7 @@ class YnabRepositoryImpl @Inject constructor(
                 Result.Success(duplicates)
             }
             is Result.Error -> result
+            is Result.Loading -> Result.Success(emptyList()) // Should not happen in suspend call
         }
     }
     

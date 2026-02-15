@@ -8,10 +8,10 @@ import androidx.lifecycle.viewModelScope
 import com.ynab.receiptscanner.core.util.Result
 import com.ynab.receiptscanner.domain.model.OcrResult
 import com.ynab.receiptscanner.domain.model.Receipt
-import com.ynab.receiptscanner.domain.usecase.ExtractTextFromImageUseCase
-import com.ynab.receiptscanner.domain.usecase.ParseReceiptUseCase
-import com.ynab.receiptscanner.domain.usecase.SaveReceiptImageUseCase
-import com.ynab.receiptscanner.domain.usecase.SaveReceiptUseCase
+import com.ynab.receiptscanner.usecase.ExtractTextFromImageUseCase
+import com.ynab.receiptscanner.usecase.ParseReceiptUseCase
+import com.ynab.receiptscanner.usecase.SaveReceiptImageUseCase
+import com.ynab.receiptscanner.usecase.SaveReceiptUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

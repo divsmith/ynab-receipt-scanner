@@ -87,10 +87,10 @@
 
         <!-- Delete button -->
         <ImageButton
-            android:id="@+id/delet@dimen/touch_target_min"
+            android:id="@+id/delete_button"
+            android:layout_width="@dimen/touch_target_min"
             android:layout_height="@dimen/touch_target_min"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:contentDescription="@string/cd_ItemBackgroundBorderless"
             android:contentDescription="@string/delete_receipt"
             android:src="@drawable/ic_delete"
             app:layout_constraintEnd_toEndOf="parent"

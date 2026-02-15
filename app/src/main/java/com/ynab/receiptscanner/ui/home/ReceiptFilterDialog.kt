@@ -52,7 +52,7 @@ class ReceiptFilterDialog(
         }
         
         binding.filterError.setOnClickListener {
-            onFilterSelected(SyncStatus.ERROR)
+            onFilterSelected(SyncStatus.FAILED)
             dismiss()
         }
     }

@@ -111,6 +111,10 @@ class SyncWorker @AssistedInject constructor(
                     
                     return Result.failure()
                 }
+                is com.ynab.receiptscanner.core.util.Result.Loading -> {
+                    // This shouldn't happen in typical flow
+                    return Result.retry()
+                }
             }
         } catch (e: Exception) {
             Log.e(TAG, "Unexpected error during sync", e)

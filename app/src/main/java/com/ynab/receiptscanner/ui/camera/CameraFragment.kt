@@ -246,8 +246,8 @@ class CameraFragment : Fragment() {
                 binding.progressIndicator.visibility = View.GONE
                 
                 // Navigate to review screen with receipt ID
-                val action = CameraFragmentDirections.actionCameraToReview(state.receipt.id)
-                findNavController().navigate(action)
+                val bundle = androidx.core.os.bundleOf("receiptId" to state.receipt.id)
+                findNavController().navigate(R.id.action_camera_to_review, bundle)
             }
             is CameraViewModel.CaptureState.Warning -> {
                 binding.captureButton.isEnabled = true

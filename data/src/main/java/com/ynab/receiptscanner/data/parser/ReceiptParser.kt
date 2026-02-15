@@ -163,13 +163,15 @@ class ReceiptParser @Inject constructor(
         }
         
         // Validate amount
-        if (receipt.amount != null && receipt.amount <= 0) {
+        val receiptAmount = receipt.amount
+        if (receiptAmount != null && receiptAmount <= 0) {
             errors.add("Invalid amount: must be positive")
         }
         
         // Validate tax
-        if (receipt.tax != null && receipt.amount != null) {
-            if (!taxExtractor.validateTax(receipt.tax, receipt.amount)) {
+        val receiptTax = receipt.tax
+        if (receiptTax != null && receiptAmount != null) {
+            if (!taxExtractor.validateTax(receiptTax, receiptAmount)) {
                 errors.add("Tax amount seems incorrect")
             }
         }

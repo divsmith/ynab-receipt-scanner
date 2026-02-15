@@ -69,7 +69,7 @@ class PerformanceMonitor @Inject constructor(
     /**
      * Log performance metric
      */
-    private fun logMetric(operationName: String, durationMs: Long, threshold: Long?) {
+    fun logMetric(operationName: String, durationMs: Long, threshold: Long?) {
         val effectiveThreshold = threshold ?: getDefaultThreshold(operationName)
         val status = if (durationMs < effectiveThreshold) "success" else "slow"
         

@@ -51,7 +51,7 @@ class SyncStatusBadge @JvmOverloads constructor(
                 )
                 binding.statusIcon.setImageResource(R.drawable.ic_check)
             }
-            SyncStatus.ERROR -> {
+            SyncStatus.FAILED -> {
                 binding.statusText.text = context.getString(R.string.status_error)
                 binding.root.setBackgroundColor(
                     ContextCompat.getColor(context, R.color.error)

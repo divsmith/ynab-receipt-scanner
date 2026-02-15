@@ -1,4 +1,4 @@
-package com.ynab.receiptscanner.domain.usecase
+package com.ynab.receiptscanner.usecase
 
 import com.ynab.receiptscanner.domain.model.ConnectivityStatus
 import com.ynab.receiptscanner.domain.repository.ConnectivityRepository

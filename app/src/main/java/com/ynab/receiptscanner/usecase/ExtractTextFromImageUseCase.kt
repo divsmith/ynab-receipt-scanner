@@ -1,4 +1,4 @@
-package com.ynab.receiptscanner.domain.usecase
+package com.ynab.receiptscanner.usecase
 
 import android.graphics.Bitmap
 import com.ynab.receiptscanner.core.util.Result

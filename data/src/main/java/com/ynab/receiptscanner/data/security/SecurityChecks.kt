@@ -5,7 +5,8 @@ import android.content.pm.ApplicationInfo
 import android.content.pm.PackageManager
 import android.os.Build
 import android.util.Log
-import com.ynab.receiptscanner.BuildConfig
+import com.ynab.receiptscanner.data.BuildConfig
+import dagger.hilt.android.qualifiers.ApplicationContext
 import java.io.File
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -16,7 +17,7 @@ import javax.inject.Singleton
  */
 @Singleton
 class SecurityChecks @Inject constructor(
-    private val context: Context
+    @ApplicationContext private val context: Context
 ) {
     
     companion object {

@@ -17,6 +17,7 @@ constraintlayout = "2.1.4"
 lifecycleRuntime = "2.7.0"
 activityKtx = "1.8.2"
 fragmentKtx = "1.6.2"
+splashscreen = "1.0.1"
 
 # Navigation
 navigation = "2.7.6"
@@ -75,6 +76,7 @@ androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "a
 androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
 androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activityKtx" }
 androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
+androidx-core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "splashscreen" }
 
 # Material Design
 material = { module = "com.google.android.material:material", version.ref = "material" }

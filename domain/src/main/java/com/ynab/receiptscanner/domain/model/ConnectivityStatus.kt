@@ -23,9 +23,4 @@ sealed class ConnectivityStatus {
      * Check if device is connected to any network
      */
     fun isConnected(): Boolean = this is Connected
-    
-    /**
-     * Check if device is connected to a metered network (cellular data)
-     */
-    fun isMetered(): Boolean = this is Connected && this.isMetered
 }

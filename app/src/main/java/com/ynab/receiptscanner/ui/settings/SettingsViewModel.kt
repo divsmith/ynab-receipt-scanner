@@ -6,7 +6,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.ynab.receiptscanner.BuildConfig
-import com.ynab.receiptscanner.domain.usecase.SignOutUseCase
+import com.ynab.receiptscanner.usecase.SignOutUseCase
 import com.ynab.receiptscanner.worker.SyncScheduler
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext

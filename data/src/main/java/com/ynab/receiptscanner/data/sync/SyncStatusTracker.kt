@@ -34,7 +34,7 @@ class SyncStatusTracker @Inject constructor(
      * Get all receipts with a specific sync status
      */
     fun getReceiptsByStatus(status: SyncStatus): Flow<List<Receipt>> {
-        return receiptDao.getReceiptsBySyncStatus(status)
+        return receiptDao.getReceiptsByStatus(status)
             .map { entities -> entities.map { it.toDomain() } }
     }
     
@@ -59,7 +59,7 @@ class SyncStatusTracker @Inject constructor(
         errorMessage: String? = null
     ) {
         Log.d(TAG, "Updating sync status for receipt $receiptId to $status")
-        receiptDao.updateSyncStatus(receiptId, status)
+        receiptDao.updateSyncStatus(receiptId, status, java.util.Date())
         // Error messages are typically handled in PendingTransaction entity
     }
     

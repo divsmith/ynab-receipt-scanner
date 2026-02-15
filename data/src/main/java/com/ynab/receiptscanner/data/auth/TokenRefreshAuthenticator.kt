@@ -77,6 +77,9 @@ class TokenRefreshAuthenticator @Inject constructor(
                     Log.e(TAG, "Failed to refresh token: ${refreshResult.exception.message}")
                     null // Don't retry
                 }
+                is com.ynab.receiptscanner.core.util.Result.Loading -> {
+                    null // Should not happen in blocking call
+                }
             }
         }
     }

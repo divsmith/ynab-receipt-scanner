@@ -3,7 +3,6 @@ package com.ynab.receiptscanner.ui.base
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.ynab.receiptscanner.ui.common.ErrorHandler
 
 /**
  * Base ViewModel with common error handling
@@ -17,7 +16,7 @@ abstract class BaseViewModel : ViewModel() {
     val isLoading: LiveData<Boolean> = _isLoading
     
     protected fun handleError(throwable: Throwable) {
-        _error.value = ErrorHandler.getErrorMessage(throwable)
+        _error.value = throwable.message ?: "An error occurred"
         _isLoading.value = false
     }
     

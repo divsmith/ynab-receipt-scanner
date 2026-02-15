@@ -18,6 +18,7 @@ data class Currency(
         val CAD = Currency("CAD", "CA$", 2)
         val AUD = Currency("AUD", "A$", 2)
         val JPY = Currency("JPY", "¥", 0)
+        val INR = Currency("INR", "₹", 2)
         
         /**
          * Get currency by code, defaults to USD if not found
@@ -30,6 +31,7 @@ data class Currency(
                 "CAD" -> CAD
                 "AUD" -> AUD
                 "JPY" -> JPY
+                "INR" -> INR
                 else -> Currency(code.uppercase(), code.uppercase(), 2)
             }
         }

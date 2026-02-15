@@ -5,6 +5,8 @@ plugins {
     alias(libs.plugins.hilt)
 }
 
+import java.util.Properties
+
 android {
     namespace = "com.ynab.receiptscanner"
     compileSdk = libs.versions.compileSdk.get().toInt()
@@ -29,7 +31,7 @@ android {
             // Load keystore properties if available
             val keystorePropertiesFile = rootProject.file("keystore.properties")
             if (keystorePropertiesFile.exists()) {
-                val keystoreProperties = java.util.Properties()
+                val keystoreProperties = Properties()
                 keystoreProperties.load(keystorePropertiesFile.inputStream())
                 
                 storeFile = file(keystoreProperties["storeFile"] as String)
@@ -112,6 +114,7 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.fragment.ktx)
+    implementation(libs.androidx.core.splashscreen)
     
     // ViewPager2 for onboarding
     implementation("androidx.viewpager2:viewpager2:1.0.0")
@@ -184,4 +187,5 @@ dependencies {
 }
 
 // Apply JaCoCo code coverage configuration
-apply(from = "${rootProject.projectDir}/jacoco.gradle")
+// Temporarily disabled due to incorrect task dependency
+// apply(from = "${rootProject.projectDir}/jacoco.gradle")

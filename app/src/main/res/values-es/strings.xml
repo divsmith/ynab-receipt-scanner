@@ -103,10 +103,6 @@
     <string name="camera_permission_required">Se requiere permiso de cámara para escanear recibos</string>
     <string name="storage_permission_required">Se requiere permiso de almacenamiento para guardar recibos</string>
     
-    <!-- Error Messages -->
-    <string name="error_network">Error de red. Por favor, verifique su conexión.</string>
-    <string name="error_unknown">Ocurrió un error desconocido</string>
-    
     <!-- Authentication -->
     <string name="auth_signed_out">Iniciar sesión en YNAB</string>
     <string name="auth_signing_in">Iniciando sesión…</string>

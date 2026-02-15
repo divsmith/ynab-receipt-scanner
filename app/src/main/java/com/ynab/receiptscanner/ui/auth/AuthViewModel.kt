@@ -3,9 +3,9 @@ package com.ynab.receiptscanner.ui.auth
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.ynab.receiptscanner.core.util.Result
-import com.ynab.receiptscanner.domain.usecase.AuthenticateWithYnabUseCase
-import com.ynab.receiptscanner.domain.usecase.GetAuthStatusUseCase
-import com.ynab.receiptscanner.domain.usecase.SignOutUseCase
+import com.ynab.receiptscanner.usecase.AuthenticateWithYnabUseCase
+import com.ynab.receiptscanner.usecase.GetAuthStatusUseCase
+import com.ynab.receiptscanner.usecase.SignOutUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -47,6 +47,9 @@ class AuthViewModel @Inject constructor(
                 is Result.Error -> {
                     _authState.value = AuthState.SignedOut
                 }
+                is Result.Loading -> {
+                    // Keep current state during loading
+                }
             }
         }
     }
@@ -69,6 +72,9 @@ class AuthViewModel @Inject constructor(
                         message = "Failed to start authentication: ${result.exception.message}",
                         exception = result.exception
                     )
+                }
+                is Result.Loading -> {
+                    // Keep signing in state
                 }
             }
         }
@@ -94,6 +100,9 @@ class AuthViewModel @Inject constructor(
                         exception = result.exception
                     )
                 }
+                is Result.Loading -> {
+                    // Keep signing in state
+                }
             }
         }
     }
@@ -116,6 +125,9 @@ class AuthViewModel @Inject constructor(
                         exception = result.exception
                     )
                 }
+                is Result.Loading -> {
+                    // Keep signing in state
+                }
             }
         }
     }
@@ -132,6 +144,9 @@ class AuthViewModel @Inject constructor(
                 is Result.Error -> {
                     // Even if revocation fails, consider user signed out locally
                     _authState.value = AuthState.SignedOut
+                }
+                is Result.Loading -> {
+                    // Keep current state
                 }
             }
         }

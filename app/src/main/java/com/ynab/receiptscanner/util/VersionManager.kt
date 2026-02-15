@@ -3,6 +3,7 @@ package com.ynab.receiptscanner.util
 import android.content.Context
 import android.content.pm.PackageManager
 import com.ynab.receiptscanner.BuildConfig
+import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -12,7 +13,7 @@ import javax.inject.Singleton
  */
 @Singleton
 class VersionManager @Inject constructor(
-    private val context: Context
+    @ApplicationContext private val context: Context
 ) {
     
     /**

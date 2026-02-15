@@ -23,7 +23,7 @@
         app:layout_constraintBottom_toBottomOf="@id/receiptFrame"
         app:layout_constraintEnd_toStartOf="@id/receiptFrame"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id:receiptFrame" />
+        app:layout_constraintTop_toTopOf="@id/receiptFrame" />
 
     <View
         android:id="@+id/overlayRight"

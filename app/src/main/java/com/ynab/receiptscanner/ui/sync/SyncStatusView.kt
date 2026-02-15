@@ -26,7 +26,7 @@ class SyncStatusView @JvmOverloads constructor(
     private var onRetryClickListener: (() -> Unit)? = null
     
     init {
-        binding = ViewSyncStatusBinding.inflate(LayoutInflater.from(context), this, true)
+        binding = ViewSyncStatusBinding.inflate(LayoutInflater.from(context), this)
         
         // Set up click listener for retry
         binding.root.setOnClickListener {

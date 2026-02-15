@@ -1,0 +1,1464 @@
+Calculating task graph as no configuration cache is available for tasks: test
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :data:preBuild UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :data:preDebugBuild UP-TO-DATE
+> Task :data:generateDebugResValues UP-TO-DATE
+> Task :data:generateDebugResources UP-TO-DATE
+> Task :domain:preBuild UP-TO-DATE
+> Task :data:packageDebugResources UP-TO-DATE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :core:preBuild UP-TO-DATE
+> Task :data:checkKotlinGradlePluginConfigurationErrors
+> Task :core:checkKotlinGradlePluginConfigurationErrors
+> Task :domain:preDebugBuild UP-TO-DATE
+> Task :domain:generateDebugResValues UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :domain:generateDebugResources UP-TO-DATE
+> Task :domain:processDebugManifest UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :domain:packageDebugResources UP-TO-DATE
+> Task :data:parseDebugLocalResources UP-TO-DATE
+> Task :data:writeDebugAarMetadata UP-TO-DATE
+> Task :domain:writeDebugAarMetadata UP-TO-DATE
+> Task :domain:parseDebugLocalResources UP-TO-DATE
+> Task :data:processDebugManifest UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :core:preDebugBuild UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :domain:checkKotlinGradlePluginConfigurationErrors
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :domain:generateDebugRFile UP-TO-DATE
+> Task :core:generateDebugResValues UP-TO-DATE
+> Task :data:generateDebugRFile UP-TO-DATE
+> Task :core:generateDebugResources UP-TO-DATE
+> Task :app:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :core:processDebugManifest UP-TO-DATE
+> Task :core:extractDeepLinksDebug UP-TO-DATE
+> Task :core:writeDebugAarMetadata UP-TO-DATE
+> Task :data:extractDeepLinksDebug UP-TO-DATE
+> Task :core:packageDebugResources UP-TO-DATE
+> Task :domain:extractDeepLinksDebug UP-TO-DATE
+> Task :data:compileDebugLibraryResources UP-TO-DATE
+> Task :core:parseDebugLocalResources UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :core:compileDebugLibraryResources UP-TO-DATE
+> Task :core:generateDebugRFile UP-TO-DATE
+> Task :domain:compileDebugLibraryResources UP-TO-DATE
+> Task :core:javaPreCompileDebug UP-TO-DATE
+> Task :data:generateDebugBuildConfig UP-TO-DATE
+> Task :domain:javaPreCompileDebug UP-TO-DATE
+> Task :data:javaPreCompileDebug UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:buildKotlinToolingMetadata UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:dataBindingMergeDependencyArtifactsRelease UP-TO-DATE
+> Task :app:generateReleaseResValues UP-TO-DATE
+> Task :app:generateReleaseResources UP-TO-DATE
+> Task :core:preReleaseBuild UP-TO-DATE
+> Task :core:generateReleaseResValues UP-TO-DATE
+> Task :core:generateReleaseResources UP-TO-DATE
+> Task :data:preReleaseBuild UP-TO-DATE
+> Task :data:generateReleaseResValues UP-TO-DATE
+> Task :data:generateReleaseResources UP-TO-DATE
+> Task :domain:preReleaseBuild UP-TO-DATE
+> Task :data:packageReleaseResources UP-TO-DATE
+> Task :domain:generateReleaseResValues UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:packageReleaseResources UP-TO-DATE
+> Task :app:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :app:parseReleaseLocalResources UP-TO-DATE
+> Task :data:parseReleaseLocalResources UP-TO-DATE
+> Task :domain:generateReleaseResources UP-TO-DATE
+> Task :domain:processReleaseManifest UP-TO-DATE
+> Task :app:generateReleaseBuildConfig UP-TO-DATE
+> Task :domain:packageReleaseResources UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :domain:parseReleaseLocalResources UP-TO-DATE
+> Task :core:packageReleaseResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :core:writeReleaseAarMetadata UP-TO-DATE
+> Task :core:processReleaseManifest UP-TO-DATE
+> Task :data:writeReleaseAarMetadata UP-TO-DATE
+> Task :domain:generateReleaseRFile UP-TO-DATE
+> Task :domain:writeReleaseAarMetadata UP-TO-DATE
+> Task :app:checkReleaseAarMetadata UP-TO-DATE
+> Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksRelease UP-TO-DATE
+> Task :core:extractDeepLinksRelease UP-TO-DATE
+> Task :data:extractDeepLinksRelease UP-TO-DATE
+> Task :app:mergeReleaseResources UP-TO-DATE
+> Task :app:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :domain:extractDeepLinksRelease UP-TO-DATE
+> Task :data:javaPreCompileRelease UP-TO-DATE
+> Task :core:javaPreCompileRelease UP-TO-DATE
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileRelease UP-TO-DATE
+> Task :core:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :core:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :core:preReleaseUnitTestBuild UP-TO-DATE
+> Task :data:generateReleaseBuildConfig UP-TO-DATE
+> Task :data:preDebugUnitTestBuild UP-TO-DATE
+> Task :core:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :data:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :data:preReleaseUnitTestBuild UP-TO-DATE
+> Task :data:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :domain:preDebugUnitTestBuild UP-TO-DATE
+> Task :core:parseReleaseLocalResources UP-TO-DATE
+> Task :core:generateReleaseRFile UP-TO-DATE
+> Task :domain:javaPreCompileRelease UP-TO-DATE
+> Task :data:processReleaseManifest UP-TO-DATE
+> Task :data:generateReleaseRFile UP-TO-DATE
+> Task :core:kspDebugKotlin UP-TO-DATE
+> Task :core:kspReleaseKotlin UP-TO-DATE
+> Task :app:dataBindingGenBaseClassesRelease UP-TO-DATE
+> Task :core:compileDebugKotlin UP-TO-DATE
+> Task :core:compileReleaseKotlin UP-TO-DATE
+> Task :app:processReleaseMainManifest UP-TO-DATE
+> Task :core:processDebugJavaRes UP-TO-DATE
+> Task :core:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:processReleaseManifest UP-TO-DATE
+> Task :core:transformDebugClassesWithAsm UP-TO-DATE
+> Task :core:processReleaseJavaRes UP-TO-DATE
+> Task :core:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :core:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :app:processReleaseManifestForPackage UP-TO-DATE
+> Task :domain:compileDebugKotlin UP-TO-DATE
+> Task :core:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :domain:compileDebugJavaWithJavac NO-SOURCE
+> Task :domain:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :app:processReleaseResources UP-TO-DATE
+> Task :domain:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :core:transformReleaseClassesWithAsm UP-TO-DATE
+> Task :domain:processDebugJavaRes UP-TO-DATE
+> Task :core:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :core:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :core:generateReleaseUnitTestStubRFile UP-TO-DATE
+> Task :core:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :domain:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :domain:compileReleaseKotlin UP-TO-DATE
+> Task :domain:compileReleaseJavaWithJavac NO-SOURCE
+> Task :domain:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :data:kspDebugKotlin UP-TO-DATE
+> Task :core:kspReleaseUnitTestKotlin NO-SOURCE
+> Task :data:compileDebugKotlin UP-TO-DATE
+> Task :data:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :domain:processReleaseJavaRes UP-TO-DATE
+> Task :domain:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :core:compileReleaseUnitTestKotlin NO-SOURCE
+> Task :core:kspDebugUnitTestKotlin NO-SOURCE
+> Task :data:processDebugJavaRes UP-TO-DATE
+> Task :core:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :core:compileDebugUnitTestKotlin NO-SOURCE
+> Task :data:generateReleaseUnitTestStubRFile UP-TO-DATE
+> Task :data:compileDebugJavaWithJavac UP-TO-DATE
+> Task :core:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :data:kspReleaseKotlin UP-TO-DATE
+> Task :data:transformDebugClassesWithAsm UP-TO-DATE
+> Task :domain:compileDebugUnitTestKotlin NO-SOURCE
+> Task :data:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :data:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :domain:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :domain:preReleaseUnitTestBuild UP-TO-DATE
+> Task :domain:processDebugUnitTestJavaRes NO-SOURCE
+> Task :domain:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :domain:generateReleaseUnitTestStubRFile UP-TO-DATE
+> Task :domain:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :domain:compileReleaseUnitTestKotlin NO-SOURCE
+> Task :domain:testDebugUnitTest NO-SOURCE
+> Task :domain:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :domain:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :data:compileReleaseKotlin UP-TO-DATE
+> Task :domain:testReleaseUnitTest NO-SOURCE
+> Task :domain:test UP-TO-DATE
+> Task :app:kspDebugKotlin UP-TO-DATE
+> Task :app:compileDebugKotlin UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:hiltAggregateDepsDebug UP-TO-DATE
+> Task :app:hiltJavaCompileDebug UP-TO-DATE
+> Task :app:transformDebugClassesWithAsm UP-TO-DATE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :core:hiltAggregateDepsDebugUnitTest UP-TO-DATE
+> Task :core:hiltJavaCompileDebugUnitTest NO-SOURCE
+> Task :core:processDebugUnitTestJavaRes NO-SOURCE
+> Task :core:hiltAggregateDepsReleaseUnitTest UP-TO-DATE
+> Task :core:transformDebugUnitTestClassesWithAsm UP-TO-DATE
+> Task :core:hiltJavaCompileReleaseUnitTest NO-SOURCE
+> Task :core:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :core:testDebugUnitTest NO-SOURCE
+> Task :core:transformReleaseUnitTestClassesWithAsm UP-TO-DATE
+> Task :core:testReleaseUnitTest NO-SOURCE
+> Task :core:test UP-TO-DATE
+> Task :data:processReleaseJavaRes
+> Task :app:bundleDebugClassesToRuntimeJar
+> Task :app:bundleDebugClassesToCompileJar
+> Task :data:kspDebugUnitTestKotlin
+> Task :data:compileReleaseJavaWithJavac
+> Task :app:kspDebugUnitTestKotlin
+> Task :data:transformReleaseClassesWithAsm
+> Task :data:bundleLibCompileToJarRelease
+> Task :data:bundleLibRuntimeToJarRelease
+
+> Task :app:compileDebugUnitTestKotlin FAILED
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:31:9 Cannot find a parameter with this name: ynabTransactionId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:32:9 Cannot find a parameter with this name: accountId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:33:9 Cannot find a parameter with this name: categoryId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:59:9 Cannot find a parameter with this name: ynabTransactionId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:60:9 Cannot find a parameter with this name: accountId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:61:9 Cannot find a parameter with this name: categoryId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:86:9 Cannot find a parameter with this name: ynabTransactionId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:87:9 Cannot find a parameter with this name: accountId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:88:9 Cannot find a parameter with this name: categoryId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:116:9 Cannot find a parameter with this name: ynabTransactionId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:117:9 Cannot find a parameter with this name: accountId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:118:9 Cannot find a parameter with this name: categoryId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:22:9 Cannot find a parameter with this name: firstMonth
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:23:9 Cannot find a parameter with this name: lastMonth
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:24:9 Cannot find a parameter with this name: currencyFormat
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:30:19 Unresolved reference: CurrencyFormat
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:30:47 Unresolved reference: CurrencyFormat
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:52:27 Unresolved reference: AccountType
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:52:53 Unresolved reference: AccountType
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:58:9 Cannot find a parameter with this name: onBudget
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:61:9 Cannot find a parameter with this name: clearedBalance
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:62:9 Cannot find a parameter with this name: unclearedBalance
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:63:9 Cannot find a parameter with this name: deleted
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:63:9 No value passed for parameter 'budgetId'
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:67:55 Unresolved reference: AccountType
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:70:55 Unresolved reference: AccountType
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:73:55 Unresolved reference: AccountType
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:79:57 Unresolved reference: AccountType
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:92:9 Cannot find a parameter with this name: categoryGroupName
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:94:9 Cannot find a parameter with this name: hidden
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:95:9 Cannot find a parameter with this name: deleted
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:146:9 Cannot find a parameter with this name: payeeName
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:149:35 Unresolved reference: ClearedStatus
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:151:9 No value passed for parameter 'id'
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:160:16 Type mismatch: inferred type is Date? but Date was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:161:35 Operator call corresponds to a dot-qualified call 'receipt.amount.times(1000)' which is not allowed on a nullable receiver 'receipt.amount'.
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:162:9 Cannot find a parameter with this name: payeeName
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:165:35 Unresolved reference: ClearedStatus
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:167:9 No value passed for parameter 'id'
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:6:22 Unresolved reference: testing
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:19:12 Unresolved reference: mockito
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:20:12 Unresolved reference: mockito
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:21:12 Unresolved reference: mockito
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:22:12 Unresolved reference: mockito
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:34:6 Unresolved reference: Mock
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:37:6 Unresolved reference: Mock
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:40:6 Unresolved reference: Mock
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:43:6 Unresolved reference: Mock
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:48:9 Unresolved reference: MockitoAnnotations
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:60:9 Unresolved reference: whenever
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:64:9 Unresolved reference: whenever
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:68:9 Unresolved reference: whenever
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:72:22 Unresolved reference: TestListenableWorkerBuilder
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:74:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:75:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:76:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:77:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:85:9 Unresolved reference: verify
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:91:9 Unresolved reference: whenever
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:95:22 Unresolved reference: TestListenableWorkerBuilder
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:97:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:98:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:99:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:100:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:108:9 Unresolved reference: verify
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:108:40 Unresolved reference: never
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:115:9 Unresolved reference: whenever
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:119:9 Unresolved reference: whenever
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:127:9 Unresolved reference: whenever
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:131:22 Unresolved reference: TestListenableWorkerBuilder
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:133:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:134:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:135:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:136:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:148:9 Unresolved reference: whenever
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:152:9 Unresolved reference: whenever
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:156:22 Unresolved reference: TestListenableWorkerBuilder
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:158:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:159:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:160:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:161:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:196:9 This type is final, so it cannot be inherited from
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:199:9 Unresolved reference: mock
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:200:9 Unresolved reference: mock
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:201:9 Unresolved reference: mock
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:202:9 Unresolved reference: mock
+
+> Task :data:compileDebugUnitTestKotlin FAILED
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:29:9 Cannot find a parameter with this name: ynabTransactionId
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:30:9 Cannot find a parameter with this name: accountId
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:31:9 Cannot find a parameter with this name: categoryId
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:33:9 No value passed for parameter 'currency'
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:33:9 No value passed for parameter 'tax'
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:44:20 The integer literal does not conform to the expected type Double
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:56:9 Cannot find a parameter with this name: budgetId
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:60:9 Cannot find a parameter with this name: payeeName
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:68:9 Cannot find a parameter with this name: errorMessage
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:69:9 Cannot find a parameter with this name: lastAttemptAt
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:70:9 No value passed for parameter 'payee'
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:70:9 No value passed for parameter 'lastError'
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:70:9 No value passed for parameter 'updatedAt'
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:80:9 Cannot find a parameter with this name: currencyCode
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:81:9 Cannot find a parameter with this name: currencySymbol
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:93:9 Cannot find a parameter with this name: onBudget
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:96:9 Cannot find a parameter with this name: clearedBalance
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:97:9 Cannot find a parameter with this name: unclearedBalance
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:98:9 Cannot find a parameter with this name: deleted
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:109:9 Cannot find a parameter with this name: categoryGroupName
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:111:9 Cannot find a parameter with this name: hidden
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:112:9 Cannot find a parameter with this name: deleted
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:112:9 No value passed for parameter 'budgeted'
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:112:9 No value passed for parameter 'activity'
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:112:9 No value passed for parameter 'balance'
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/network/ConnectivityMonitorTest.kt:7:22 Unresolved reference: core
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/network/ConnectivityMonitorTest.kt:44:19 Unresolved reference: ApplicationProvider
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/network/ConnectivityMonitorTest.kt:132:31 Expression 'isMetered' of type 'Boolean' cannot be invoked as a function. The function 'invoke()' is not found
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/network/ConnectivityMonitorTest.kt:136:37 Expression 'isMetered' of type 'Boolean' cannot be invoked as a function. The function 'invoke()' is not found
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/network/ConnectivityMonitorTest.kt:141:34 Unresolved reference: isMetered
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/network/ConnectivityMonitorTest.kt:146:29 Unresolved reference: isMetered
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/parser/AmountExtractorTest.kt:23:29 Type mismatch: inferred type is Double? but Double was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/parser/AmountExtractorTest.kt:29:29 Type mismatch: inferred type is Double? but Double was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/parser/AmountExtractorTest.kt:35:31 Type mismatch: inferred type is Double? but Double was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/parser/AmountExtractorTest.kt:41:31 Type mismatch: inferred type is Double? but Double was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/parser/AmountExtractorTest.kt:47:29 Type mismatch: inferred type is Double? but Double was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/parser/AmountExtractorTest.kt:53:29 Type mismatch: inferred type is Double? but Double was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/parser/AmountExtractorTest.kt:167:27 Type mismatch: inferred type is Double? but Double was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/parser/AmountExtractorTest.kt:170:31 Type mismatch: inferred type is Double? but Double was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/parser/AmountExtractorTest.kt:173:28 Type mismatch: inferred type is Double? but Double was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/storage/ImageStorageManagerTest.kt:235:42 Unresolved reference: clearAllImages
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/storage/ImageStorageManagerTest.kt:238:9 Overload resolution ambiguity: 
+public open fun <T : Any!> assertThat(p0: Array<(out) TypeVariable(T)?>?): ObjectArraySubject<TypeVariable(T)!>! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: (Mutable)Iterable<*>?): IterableSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: (Mutable)Map<*, *>?): MapSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Optional<*>?): GuavaOptionalSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Multimap<out Any!, out Any!>?): MultimapSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Multiset<out Any!>?): MultisetSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Table<out Any!, out Any!, out Any!>?): TableSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Class<*>?): ClassSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: BigDecimal?): BigDecimalSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Any?): Subject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Boolean?): BooleanSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: BooleanArray!): PrimitiveBooleanArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: ByteArray!): PrimitiveByteArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: CharArray!): PrimitiveCharArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Double?): DoubleSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: DoubleArray!): PrimitiveDoubleArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Float?): FloatSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: FloatArray!): PrimitiveFloatArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Int?): IntegerSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: IntArray!): PrimitiveIntArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Long?): LongSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: LongArray!): PrimitiveLongArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: ShortArray!): PrimitiveShortArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: String?): StringSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Throwable?): ThrowableSubject! defined in com.google.common.truth.Truth
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/storage/ImageStorageManagerTest.kt:258:40 Unresolved reference: getStorageSize
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/storage/ImageStorageManagerTest.kt:261:9 Overload resolution ambiguity: 
+public open fun <T : Any!> assertThat(p0: Array<(out) TypeVariable(T)?>?): ObjectArraySubject<TypeVariable(T)!>! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: (Mutable)Iterable<*>?): IterableSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: (Mutable)Map<*, *>?): MapSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Optional<*>?): GuavaOptionalSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Multimap<out Any!, out Any!>?): MultimapSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Multiset<out Any!>?): MultisetSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Table<out Any!, out Any!, out Any!>?): TableSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Class<*>?): ClassSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: BigDecimal?): BigDecimalSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Any?): Subject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Boolean?): BooleanSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: BooleanArray!): PrimitiveBooleanArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: ByteArray!): PrimitiveByteArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: CharArray!): PrimitiveCharArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Double?): DoubleSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: DoubleArray!): PrimitiveDoubleArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Float?): FloatSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: FloatArray!): PrimitiveFloatArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Int?): IntegerSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: IntArray!): PrimitiveIntArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Long?): LongSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: LongArray!): PrimitiveLongArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: ShortArray!): PrimitiveShortArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: String?): StringSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Throwable?): ThrowableSubject! defined in com.google.common.truth.Truth
+
+> Task :data:kspReleaseUnitTestKotlin
+
+> Task :data:compileReleaseUnitTestKotlin FAILED
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:29:9 Cannot find a parameter with this name: ynabTransactionId
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:30:9 Cannot find a parameter with this name: accountId
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:31:9 Cannot find a parameter with this name: categoryId
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:33:9 No value passed for parameter 'currency'
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:33:9 No value passed for parameter 'tax'
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:44:20 The integer literal does not conform to the expected type Double
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:56:9 Cannot find a parameter with this name: budgetId
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:60:9 Cannot find a parameter with this name: payeeName
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:68:9 Cannot find a parameter with this name: errorMessage
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:69:9 Cannot find a parameter with this name: lastAttemptAt
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:70:9 No value passed for parameter 'payee'
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:70:9 No value passed for parameter 'lastError'
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:70:9 No value passed for parameter 'updatedAt'
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:80:9 Cannot find a parameter with this name: currencyCode
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:81:9 Cannot find a parameter with this name: currencySymbol
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:93:9 Cannot find a parameter with this name: onBudget
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:96:9 Cannot find a parameter with this name: clearedBalance
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:97:9 Cannot find a parameter with this name: unclearedBalance
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:98:9 Cannot find a parameter with this name: deleted
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:109:9 Cannot find a parameter with this name: categoryGroupName
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:111:9 Cannot find a parameter with this name: hidden
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:112:9 Cannot find a parameter with this name: deleted
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:112:9 No value passed for parameter 'budgeted'
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:112:9 No value passed for parameter 'activity'
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/TestData.kt:112:9 No value passed for parameter 'balance'
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/network/ConnectivityMonitorTest.kt:7:22 Unresolved reference: core
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/network/ConnectivityMonitorTest.kt:44:19 Unresolved reference: ApplicationProvider
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/network/ConnectivityMonitorTest.kt:132:31 Expression 'isMetered' of type 'Boolean' cannot be invoked as a function. The function 'invoke()' is not found
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/network/ConnectivityMonitorTest.kt:136:37 Expression 'isMetered' of type 'Boolean' cannot be invoked as a function. The function 'invoke()' is not found
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/network/ConnectivityMonitorTest.kt:141:34 Unresolved reference: isMetered
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/network/ConnectivityMonitorTest.kt:146:29 Unresolved reference: isMetered
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/parser/AmountExtractorTest.kt:23:29 Type mismatch: inferred type is Double? but Double was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/parser/AmountExtractorTest.kt:29:29 Type mismatch: inferred type is Double? but Double was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/parser/AmountExtractorTest.kt:35:31 Type mismatch: inferred type is Double? but Double was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/parser/AmountExtractorTest.kt:41:31 Type mismatch: inferred type is Double? but Double was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/parser/AmountExtractorTest.kt:47:29 Type mismatch: inferred type is Double? but Double was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/parser/AmountExtractorTest.kt:53:29 Type mismatch: inferred type is Double? but Double was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/parser/AmountExtractorTest.kt:167:27 Type mismatch: inferred type is Double? but Double was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/parser/AmountExtractorTest.kt:170:31 Type mismatch: inferred type is Double? but Double was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/parser/AmountExtractorTest.kt:173:28 Type mismatch: inferred type is Double? but Double was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/storage/ImageStorageManagerTest.kt:235:42 Unresolved reference: clearAllImages
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/storage/ImageStorageManagerTest.kt:238:9 Overload resolution ambiguity: 
+public open fun <T : Any!> assertThat(p0: Array<(out) TypeVariable(T)?>?): ObjectArraySubject<TypeVariable(T)!>! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: (Mutable)Iterable<*>?): IterableSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: (Mutable)Map<*, *>?): MapSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Optional<*>?): GuavaOptionalSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Multimap<out Any!, out Any!>?): MultimapSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Multiset<out Any!>?): MultisetSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Table<out Any!, out Any!, out Any!>?): TableSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Class<*>?): ClassSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: BigDecimal?): BigDecimalSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Any?): Subject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Boolean?): BooleanSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: BooleanArray!): PrimitiveBooleanArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: ByteArray!): PrimitiveByteArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: CharArray!): PrimitiveCharArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Double?): DoubleSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: DoubleArray!): PrimitiveDoubleArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Float?): FloatSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: FloatArray!): PrimitiveFloatArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Int?): IntegerSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: IntArray!): PrimitiveIntArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Long?): LongSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: LongArray!): PrimitiveLongArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: ShortArray!): PrimitiveShortArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: String?): StringSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Throwable?): ThrowableSubject! defined in com.google.common.truth.Truth
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/storage/ImageStorageManagerTest.kt:258:40 Unresolved reference: getStorageSize
+e: file:///Users/parker/code/ynab-receipt-scanner/data/src/test/java/com/ynab/receiptscanner/data/storage/ImageStorageManagerTest.kt:261:9 Overload resolution ambiguity: 
+public open fun <T : Any!> assertThat(p0: Array<(out) TypeVariable(T)?>?): ObjectArraySubject<TypeVariable(T)!>! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: (Mutable)Iterable<*>?): IterableSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: (Mutable)Map<*, *>?): MapSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Optional<*>?): GuavaOptionalSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Multimap<out Any!, out Any!>?): MultimapSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Multiset<out Any!>?): MultisetSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Table<out Any!, out Any!, out Any!>?): TableSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Class<*>?): ClassSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: BigDecimal?): BigDecimalSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Any?): Subject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Boolean?): BooleanSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: BooleanArray!): PrimitiveBooleanArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: ByteArray!): PrimitiveByteArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: CharArray!): PrimitiveCharArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Double?): DoubleSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: DoubleArray!): PrimitiveDoubleArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Float?): FloatSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: FloatArray!): PrimitiveFloatArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Int?): IntegerSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: IntArray!): PrimitiveIntArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Long?): LongSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: LongArray!): PrimitiveLongArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: ShortArray!): PrimitiveShortArraySubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: String?): StringSubject! defined in com.google.common.truth.Truth
+public open fun assertThat(p0: Throwable?): ThrowableSubject! defined in com.google.common.truth.Truth
+
+> Task :app:kspReleaseKotlin
+
+> Task :app:compileReleaseKotlin
+w: file:///Users/parker/code/ynab-receipt-scanner/app/src/main/java/com/ynab/receiptscanner/ui/MainViewModel.kt:40:29 Parameter 'code' is never used
+w: file:///Users/parker/code/ynab-receipt-scanner/app/src/main/java/com/ynab/receiptscanner/ui/home/HomeViewModel.kt:148:23 Parameter 'receipt' is never used
+w: file:///Users/parker/code/ynab-receipt-scanner/app/src/main/java/com/ynab/receiptscanner/ui/home/ReceiptViewHolder.kt:56:55 Type mismatch: inferred type is Date? but Date was expected
+w: file:///Users/parker/code/ynab-receipt-scanner/app/src/main/java/com/ynab/receiptscanner/ui/settings/SettingsViewModel.kt:75:27 Parameter 'enabled' is never used
+w: file:///Users/parker/code/ynab-receipt-scanner/app/src/main/java/com/ynab/receiptscanner/ui/settings/SettingsViewModel.kt:108:18 Parameter 'theme' is never used
+w: file:///Users/parker/code/ynab-receipt-scanner/app/src/main/java/com/ynab/receiptscanner/usecase/RetrySyncUseCase.kt:17:33 Parameter 'receiptId' is never used
+w: file:///Users/parker/code/ynab-receipt-scanner/app/src/main/java/com/ynab/receiptscanner/validator/TransactionValidator.kt:33:9 Parameter 'categoryId' is never used
+w: file:///Users/parker/code/ynab-receipt-scanner/app/src/main/java/com/ynab/receiptscanner/worker/CleanupWorker.kt:89:17 Variable 'cutoffDate' is never used
+w: file:///Users/parker/code/ynab-receipt-scanner/app/src/main/java/com/ynab/receiptscanner/worker/CleanupWorker.kt:91:27 Parameter 'receipt' is never used, could be renamed to _
+w: file:///Users/parker/code/ynab-receipt-scanner/app/src/main/java/com/ynab/receiptscanner/worker/CleanupWorker.kt:101:38 Type mismatch: inferred type is String? but String was expected
+
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:hiltAggregateDepsRelease FROM-CACHE
+> Task :app:hiltJavaCompileRelease
+> Task :app:processReleaseJavaRes
+> Task :app:bundleReleaseClassesToCompileJar
+> Task :app:transformReleaseClassesWithAsm
+> Task :app:bundleReleaseClassesToRuntimeJar
+> Task :app:kspReleaseUnitTestKotlin
+
+> Task :app:compileReleaseUnitTestKotlin FAILED
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:31:9 Cannot find a parameter with this name: ynabTransactionId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:32:9 Cannot find a parameter with this name: accountId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:33:9 Cannot find a parameter with this name: categoryId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:59:9 Cannot find a parameter with this name: ynabTransactionId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:60:9 Cannot find a parameter with this name: accountId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:61:9 Cannot find a parameter with this name: categoryId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:86:9 Cannot find a parameter with this name: ynabTransactionId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:87:9 Cannot find a parameter with this name: accountId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:88:9 Cannot find a parameter with this name: categoryId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:116:9 Cannot find a parameter with this name: ynabTransactionId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:117:9 Cannot find a parameter with this name: accountId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockReceiptFactory.kt:118:9 Cannot find a parameter with this name: categoryId
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:22:9 Cannot find a parameter with this name: firstMonth
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:23:9 Cannot find a parameter with this name: lastMonth
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:24:9 Cannot find a parameter with this name: currencyFormat
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:30:19 Unresolved reference: CurrencyFormat
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:30:47 Unresolved reference: CurrencyFormat
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:52:27 Unresolved reference: AccountType
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:52:53 Unresolved reference: AccountType
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:58:9 Cannot find a parameter with this name: onBudget
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:61:9 Cannot find a parameter with this name: clearedBalance
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:62:9 Cannot find a parameter with this name: unclearedBalance
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:63:9 Cannot find a parameter with this name: deleted
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:63:9 No value passed for parameter 'budgetId'
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:67:55 Unresolved reference: AccountType
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:70:55 Unresolved reference: AccountType
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:73:55 Unresolved reference: AccountType
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:79:57 Unresolved reference: AccountType
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:92:9 Cannot find a parameter with this name: categoryGroupName
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:94:9 Cannot find a parameter with this name: hidden
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:95:9 Cannot find a parameter with this name: deleted
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:146:9 Cannot find a parameter with this name: payeeName
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:149:35 Unresolved reference: ClearedStatus
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:151:9 No value passed for parameter 'id'
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:160:16 Type mismatch: inferred type is Date? but Date was expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:161:35 Operator call corresponds to a dot-qualified call 'receipt.amount.times(1000)' which is not allowed on a nullable receiver 'receipt.amount'.
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:162:9 Cannot find a parameter with this name: payeeName
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:165:35 Unresolved reference: ClearedStatus
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/mock/MockYnabDataFactory.kt:167:9 No value passed for parameter 'id'
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:6:22 Unresolved reference: testing
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:19:12 Unresolved reference: mockito
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:20:12 Unresolved reference: mockito
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:21:12 Unresolved reference: mockito
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:22:12 Unresolved reference: mockito
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:34:6 Unresolved reference: Mock
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:37:6 Unresolved reference: Mock
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:40:6 Unresolved reference: Mock
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:43:6 Unresolved reference: Mock
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:48:9 Unresolved reference: MockitoAnnotations
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:60:9 Unresolved reference: whenever
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:64:9 Unresolved reference: whenever
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:68:9 Unresolved reference: whenever
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:72:22 Unresolved reference: TestListenableWorkerBuilder
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:74:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:75:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:76:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:77:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:85:9 Unresolved reference: verify
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:91:9 Unresolved reference: whenever
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:95:22 Unresolved reference: TestListenableWorkerBuilder
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:97:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:98:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:99:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:100:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:108:9 Unresolved reference: verify
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:108:40 Unresolved reference: never
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:115:9 Unresolved reference: whenever
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:119:9 Unresolved reference: whenever
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:127:9 Unresolved reference: whenever
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:131:22 Unresolved reference: TestListenableWorkerBuilder
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:133:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:134:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:135:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:136:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:148:9 Unresolved reference: whenever
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:152:9 Unresolved reference: whenever
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:156:22 Unresolved reference: TestListenableWorkerBuilder
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:158:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:159:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:160:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:161:16 Variable expected
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:196:9 This type is final, so it cannot be inherited from
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:199:9 Unresolved reference: mock
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:200:9 Unresolved reference: mock
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:201:9 Unresolved reference: mock
+e: file:///Users/parker/code/ynab-receipt-scanner/app/src/test/java/com/ynab/receiptscanner/worker/SyncWorkerTest.kt:202:9 Unresolved reference: mock
+
+0 problems were found storing the configuration cache.
+
+See the complete report at file:///Users/parker/code/ynab-receipt-scanner/build/reports/configuration-cache/9olmhzve43wna7o5k9xykt3s3/1zghiccfckbgbovfermhlbv4c/configuration-cache-report.html
+
+FAILURE: Build completed with 4 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:compileDebugUnitTestKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileDebugUnitTestKotlin'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:149)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:282)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:147)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:135)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:337)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:324)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:317)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:463)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:380)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkItemExecution.waitForCompletion(DefaultWorkerExecutor.java:283)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.lambda$waitForItemsAndGatherFailures$2(DefaultAsyncWorkTracker.java:130)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:321)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:304)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLock(DefaultWorkerLeaseService.java:309)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:126)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:92)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForAll(DefaultAsyncWorkTracker.java:78)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForCompletion(DefaultAsyncWorkTracker.java:66)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:256)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:68)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:233)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:216)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:199)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:166)
+	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:67)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:37)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:41)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:74)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:50)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:28)
+	at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.executeDelegateBroadcastingChanges(CaptureStateAfterExecutionStep.java:100)
+	at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.execute(CaptureStateAfterExecutionStep.java:72)
+	at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.execute(CaptureStateAfterExecutionStep.java:50)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:179)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeAndStoreInCache(BuildCacheStep.java:139)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$executeWithCache$4(BuildCacheStep.java:106)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$executeWithCache$5(BuildCacheStep.java:106)
+	at org.gradle.internal.Try$Success.map(Try.java:164)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithCache(BuildCacheStep.java:80)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$0(BuildCacheStep.java:69)
+	at org.gradle.internal.Either$Left.fold(Either.java:115)
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:59)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:68)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:25)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:36)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:22)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:91)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:55)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:55)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:37)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:77)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:38)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:94)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:49)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:71)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:45)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.executeWithNonEmptySources(SkipEmptyWorkStep.java:177)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:86)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:53)
+	at org.gradle.internal.execution.steps.RemoveUntrackedExecutionStateStep.execute(RemoveUntrackedExecutionStateStep.java:32)
+	at org.gradle.internal.execution.steps.RemoveUntrackedExecutionStateStep.execute(RemoveUntrackedExecutionStateStep.java:21)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.CleanupStaleOutputsStep.execute(CleanupStaleOutputsStep.java:75)
+	at org.gradle.internal.execution.steps.CleanupStaleOutputsStep.execute(CleanupStaleOutputsStep.java:41)
+	at org.gradle.internal.execution.steps.AssignWorkspaceStep.lambda$execute$0(AssignWorkspaceStep.java:32)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:293)
+	at org.gradle.internal.execution.steps.AssignWorkspaceStep.execute(AssignWorkspaceStep.java:30)
+	at org.gradle.internal.execution.steps.AssignWorkspaceStep.execute(AssignWorkspaceStep.java:21)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:37)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:27)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:47)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:34)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:64)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:146)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:135)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:337)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:324)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:317)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:463)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:380)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+Caused by: org.jetbrains.kotlin.gradle.tasks.CompilationErrorException: Compilation error. See log for more details
+	at org.jetbrains.kotlin.gradle.tasks.TasksUtilsKt.throwExceptionIfCompilationFailed(tasksUtils.kt:20)
+	at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.run(GradleKotlinCompilerWork.kt:141)
+	at org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction.execute(GradleCompilerRunnerWithWorkers.kt:73)
+	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:66)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:62)
+	at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:100)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:62)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:59)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$0(DefaultWorkerExecutor.java:170)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:187)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.access$700(DefaultConditionalExecutionQueue.java:120)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:162)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:249)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:109)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:114)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:157)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:126)
+	... 2 more
+
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':data:compileDebugUnitTestKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':data:compileDebugUnitTestKotlin'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:149)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:282)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:147)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:135)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:337)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:324)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:317)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:463)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:380)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkItemExecution.waitForCompletion(DefaultWorkerExecutor.java:283)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.lambda$waitForItemsAndGatherFailures$2(DefaultAsyncWorkTracker.java:130)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:321)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:304)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLock(DefaultWorkerLeaseService.java:309)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:126)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:92)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForAll(DefaultAsyncWorkTracker.java:78)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForCompletion(DefaultAsyncWorkTracker.java:66)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:256)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:68)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:233)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:216)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:199)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:166)
+	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:67)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:37)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:41)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:74)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:50)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:28)
+	at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.executeDelegateBroadcastingChanges(CaptureStateAfterExecutionStep.java:100)
+	at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.execute(CaptureStateAfterExecutionStep.java:72)
+	at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.execute(CaptureStateAfterExecutionStep.java:50)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:179)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeAndStoreInCache(BuildCacheStep.java:139)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$executeWithCache$4(BuildCacheStep.java:106)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$executeWithCache$5(BuildCacheStep.java:106)
+	at org.gradle.internal.Try$Success.map(Try.java:164)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithCache(BuildCacheStep.java:80)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$0(BuildCacheStep.java:69)
+	at org.gradle.internal.Either$Left.fold(Either.java:115)
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:59)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:68)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:25)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:36)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:22)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:91)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:55)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:55)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:37)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:77)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:38)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:94)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:49)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:71)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:45)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.executeWithNonEmptySources(SkipEmptyWorkStep.java:177)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:86)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:53)
+	at org.gradle.internal.execution.steps.RemoveUntrackedExecutionStateStep.execute(RemoveUntrackedExecutionStateStep.java:32)
+	at org.gradle.internal.execution.steps.RemoveUntrackedExecutionStateStep.execute(RemoveUntrackedExecutionStateStep.java:21)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.CleanupStaleOutputsStep.execute(CleanupStaleOutputsStep.java:75)
+	at org.gradle.internal.execution.steps.CleanupStaleOutputsStep.execute(CleanupStaleOutputsStep.java:41)
+	at org.gradle.internal.execution.steps.AssignWorkspaceStep.lambda$execute$0(AssignWorkspaceStep.java:32)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:293)
+	at org.gradle.internal.execution.steps.AssignWorkspaceStep.execute(AssignWorkspaceStep.java:30)
+	at org.gradle.internal.execution.steps.AssignWorkspaceStep.execute(AssignWorkspaceStep.java:21)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:37)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:27)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:47)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:34)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:64)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:146)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:135)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:337)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:324)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:317)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:463)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:380)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.jetbrains.kotlin.gradle.tasks.CompilationErrorException: Compilation error. See log for more details
+	at org.jetbrains.kotlin.gradle.tasks.TasksUtilsKt.throwExceptionIfCompilationFailed(tasksUtils.kt:20)
+	at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.run(GradleKotlinCompilerWork.kt:141)
+	at org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction.execute(GradleCompilerRunnerWithWorkers.kt:73)
+	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:66)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:62)
+	at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:100)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:62)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:59)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$0(DefaultWorkerExecutor.java:170)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:187)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.access$700(DefaultConditionalExecutionQueue.java:120)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:162)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:249)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:109)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:114)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:157)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:126)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 5 more
+
+==============================================================================
+
+3: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':data:compileReleaseUnitTestKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':data:compileReleaseUnitTestKotlin'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:149)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:282)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:147)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:135)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:337)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:324)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:317)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:463)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:380)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkItemExecution.waitForCompletion(DefaultWorkerExecutor.java:283)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.lambda$waitForItemsAndGatherFailures$2(DefaultAsyncWorkTracker.java:130)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:321)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:304)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLock(DefaultWorkerLeaseService.java:309)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:126)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:92)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForAll(DefaultAsyncWorkTracker.java:78)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForCompletion(DefaultAsyncWorkTracker.java:66)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:256)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:68)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:233)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:216)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:199)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:166)
+	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:67)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:37)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:41)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:74)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:50)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:28)
+	at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.executeDelegateBroadcastingChanges(CaptureStateAfterExecutionStep.java:100)
+	at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.execute(CaptureStateAfterExecutionStep.java:72)
+	at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.execute(CaptureStateAfterExecutionStep.java:50)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:179)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeAndStoreInCache(BuildCacheStep.java:139)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$executeWithCache$4(BuildCacheStep.java:106)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$executeWithCache$5(BuildCacheStep.java:106)
+	at org.gradle.internal.Try$Success.map(Try.java:164)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithCache(BuildCacheStep.java:80)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$0(BuildCacheStep.java:69)
+	at org.gradle.internal.Either$Left.fold(Either.java:115)
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:59)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:68)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:25)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:36)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:22)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:91)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:55)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:55)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:37)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:77)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:38)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:94)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:49)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:71)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:45)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.executeWithNonEmptySources(SkipEmptyWorkStep.java:177)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:86)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:53)
+	at org.gradle.internal.execution.steps.RemoveUntrackedExecutionStateStep.execute(RemoveUntrackedExecutionStateStep.java:32)
+	at org.gradle.internal.execution.steps.RemoveUntrackedExecutionStateStep.execute(RemoveUntrackedExecutionStateStep.java:21)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.CleanupStaleOutputsStep.execute(CleanupStaleOutputsStep.java:75)
+	at org.gradle.internal.execution.steps.CleanupStaleOutputsStep.execute(CleanupStaleOutputsStep.java:41)
+	at org.gradle.internal.execution.steps.AssignWorkspaceStep.lambda$execute$0(AssignWorkspaceStep.java:32)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:293)
+	at org.gradle.internal.execution.steps.AssignWorkspaceStep.execute(AssignWorkspaceStep.java:30)
+	at org.gradle.internal.execution.steps.AssignWorkspaceStep.execute(AssignWorkspaceStep.java:21)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:37)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:27)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:47)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:34)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:64)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:146)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:135)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:337)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:324)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:317)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:463)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:380)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.jetbrains.kotlin.gradle.tasks.CompilationErrorException: Compilation error. See log for more details
+	at org.jetbrains.kotlin.gradle.tasks.TasksUtilsKt.throwExceptionIfCompilationFailed(tasksUtils.kt:20)
+	at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.run(GradleKotlinCompilerWork.kt:141)
+	at org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction.execute(GradleCompilerRunnerWithWorkers.kt:73)
+	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:66)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:62)
+	at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:100)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:62)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:59)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$0(DefaultWorkerExecutor.java:170)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:187)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.access$700(DefaultConditionalExecutionQueue.java:120)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:162)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:249)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:109)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:114)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:157)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:126)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 5 more
+
+==============================================================================
+
+4: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:compileReleaseUnitTestKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileReleaseUnitTestKotlin'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:149)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:282)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:147)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:135)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:337)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:324)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:317)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:463)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:380)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkItemExecution.waitForCompletion(DefaultWorkerExecutor.java:283)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.lambda$waitForItemsAndGatherFailures$2(DefaultAsyncWorkTracker.java:130)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:321)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:304)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLock(DefaultWorkerLeaseService.java:309)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:126)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:92)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForAll(DefaultAsyncWorkTracker.java:78)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForCompletion(DefaultAsyncWorkTracker.java:66)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:256)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:68)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:233)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:216)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:199)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:166)
+	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:67)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:37)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:41)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:74)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:50)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:28)
+	at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.executeDelegateBroadcastingChanges(CaptureStateAfterExecutionStep.java:100)
+	at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.execute(CaptureStateAfterExecutionStep.java:72)
+	at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.execute(CaptureStateAfterExecutionStep.java:50)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:179)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeAndStoreInCache(BuildCacheStep.java:139)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$executeWithCache$4(BuildCacheStep.java:106)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$executeWithCache$5(BuildCacheStep.java:106)
+	at org.gradle.internal.Try$Success.map(Try.java:164)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithCache(BuildCacheStep.java:80)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$0(BuildCacheStep.java:69)
+	at org.gradle.internal.Either$Left.fold(Either.java:115)
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:59)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:68)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:25)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:36)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:22)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:91)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:55)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:55)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:37)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:77)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:38)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:94)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:49)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:71)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:45)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.executeWithNonEmptySources(SkipEmptyWorkStep.java:177)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:86)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:53)
+	at org.gradle.internal.execution.steps.RemoveUntrackedExecutionStateStep.execute(RemoveUntrackedExecutionStateStep.java:32)
+	at org.gradle.internal.execution.steps.RemoveUntrackedExecutionStateStep.execute(RemoveUntrackedExecutionStateStep.java:21)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.CleanupStaleOutputsStep.execute(CleanupStaleOutputsStep.java:75)
+	at org.gradle.internal.execution.steps.CleanupStaleOutputsStep.execute(CleanupStaleOutputsStep.java:41)
+	at org.gradle.internal.execution.steps.AssignWorkspaceStep.lambda$execute$0(AssignWorkspaceStep.java:32)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:293)
+	at org.gradle.internal.execution.steps.AssignWorkspaceStep.execute(AssignWorkspaceStep.java:30)
+	at org.gradle.internal.execution.steps.AssignWorkspaceStep.execute(AssignWorkspaceStep.java:21)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:37)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:27)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:47)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:34)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:64)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:146)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:135)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:337)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:324)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:317)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:463)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:380)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.jetbrains.kotlin.gradle.tasks.CompilationErrorException: Compilation error. See log for more details
+	at org.jetbrains.kotlin.gradle.tasks.TasksUtilsKt.throwExceptionIfCompilationFailed(tasksUtils.kt:20)
+	at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.run(GradleKotlinCompilerWork.kt:141)
+	at org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction.execute(GradleCompilerRunnerWithWorkers.kt:73)
+	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:66)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:62)
+	at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:100)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:62)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:59)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$0(DefaultWorkerExecutor.java:170)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:187)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.access$700(DefaultConditionalExecutionQueue.java:120)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:162)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:249)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:109)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:114)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:157)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:126)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 5 more
+
+==============================================================================
+
+BUILD FAILED in 19s
+170 actionable tasks: 27 executed, 1 from cache, 142 up-to-date
+Configuration cache entry stored.

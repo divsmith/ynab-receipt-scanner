@@ -5,7 +5,6 @@ import android.graphics.Canvas
 import android.graphics.ColorMatrix
 import android.graphics.ColorMatrixColorFilter
 import android.graphics.Paint
-import com.ynab.receiptscanner.performance.PerformanceMonitor
 import javax.inject.Inject
 import javax.inject.Singleton
 import kotlin.math.max
@@ -18,8 +17,7 @@ import kotlin.math.min
 @Singleton
 class ImagePreprocessor @Inject constructor(
     private val edgeDetector: EdgeDetector,
-    private val imageEnhancer: ImageEnhancer,
-    private val performanceMonitor: PerformanceMonitor
+    private val imageEnhancer: ImageEnhancer
 ) {
     
     companion object {
@@ -32,31 +30,29 @@ class ImagePreprocessor @Inject constructor(
      * @return Preprocessed image optimized for OCR
      */
     fun preprocess(bitmap: Bitmap): Bitmap {
-        return performanceMonitor.measure("image_preprocessing") {
-            var processed = bitmap
-            
-            // Resize if image is too large (optimization)
-            if (bitmap.width > MAX_DIMENSION || bitmap.height > MAX_DIMENSION) {
-                processed = resize(processed, MAX_DIMENSION, MAX_DIMENSION)
-            }
-            
-            // Step 1: Convert to grayscale
-            processed = toGrayscale(processed)
-            
-            // Step 2: Detect and correct perspective if needed
-            val edges = edgeDetector.detectDocumentEdges(processed)
-            if (edges.isNotEmpty()) {
-                processed = correctPerspective(processed, edges)
-            }
-            
-            // Step 3: Enhance contrast and brightness
-            processed = imageEnhancer.enhance(processed)
-            
-            // Step 4: Denoise
-            processed = denoise(processed)
-            
-            processed
+        var processed = bitmap
+        
+        // Resize if image is too large (optimization)
+        if (bitmap.width > MAX_DIMENSION || bitmap.height > MAX_DIMENSION) {
+            processed = resize(processed, MAX_DIMENSION, MAX_DIMENSION)
         }
+        
+        // Step 1: Convert to grayscale
+        processed = toGrayscale(processed)
+        
+        // Step 2: Detect and correct perspective if needed
+        val edges = edgeDetector.detectDocumentEdges(processed)
+        if (edges.isNotEmpty()) {
+            processed = correctPerspective(processed, edges)
+        }
+        
+        // Step 3: Enhance contrast and brightness
+        processed = imageEnhancer.enhance(processed)
+        
+        // Step 4: Denoise
+        processed = denoise(processed)
+        
+        return processed
     }
     
     /**

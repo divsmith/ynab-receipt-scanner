@@ -47,8 +47,8 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
     private fun setupRecyclerView() {
         receiptAdapter = ReceiptAdapter(
             onItemClick = { receipt ->
-                val action = HomeFragmentDirections.actionHomeToReview(receipt.id)
-                findNavController().navigate(action)
+                val bundle = androidx.core.os.bundleOf("receiptId" to receipt.id)
+                findNavController().navigate(R.id.action_home_to_review, bundle)
             },
             onDeleteClick = { receipt ->
                 viewModel.deleteReceipt(receipt)
@@ -151,10 +151,10 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
     
     private fun updateEmptyState(isEmpty: Boolean) {
         if (isEmpty) {
-            binding.emptyStateView.visibility = View.VISIBLE
+            binding.emptyStateView.root.visibility = View.VISIBLE
             binding.recyclerView.visibility = View.GONE
         } else {
-            binding.emptyStateView.visibility = View.GONE
+            binding.emptyStateView.root.visibility = View.GONE
             binding.recyclerView.visibility = View.VISIBLE
         }
     }

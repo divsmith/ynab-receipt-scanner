@@ -1,4 +1,4 @@
-package com.ynab.receiptscanner.domain.validator
+package com.ynab.receiptscanner.validator
 
 import java.math.BigDecimal
 import java.time.LocalDate
