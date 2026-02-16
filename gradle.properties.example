@@ -1,0 +1,18 @@
+# YNAB Receipt Scanner - Gradle Properties Template
+#
+# Instructions:
+# 1. Copy this file to 'gradle.properties' (without .example)
+# 2. Add your actual YNAB OAuth credentials
+# 3. Never commit gradle.properties to version control
+#
+# gradle.properties should be in your .gitignore
+
+# YNAB OAuth Configuration
+# Get your credentials from https://app.ynab.com/settings/developer
+ynab.client.id=your_actual_client_id_here
+ynab.client.secret=your_actual_client_secret_here
+
+# Gradle Daemon settings (optional)
+org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8
+org.gradle.parallel=true
+org.gradle.caching=true

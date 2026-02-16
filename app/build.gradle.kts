@@ -22,6 +22,12 @@ android {
         // Make build constants available to tests
         buildConfigField("int", "MIN_SDK", "${minSdk}")
         buildConfigField("int", "TARGET_SDK", "${targetSdk}")
+        
+        // YNAB OAuth credentials - configure in gradle.properties or environment variables
+        // Never commit actual credentials to version control
+        buildConfigField("String", "YNAB_CLIENT_ID", "\"${project.findProperty("ynab.client.id") ?: ""}\"")
+        buildConfigField("String", "YNAB_CLIENT_SECRET", "\"${project.findProperty("ynab.client.secret") ?: ""}\"")
+        buildConfigField("String", "YNAB_REDIRECT_URI", "\"receiptscanner://oauth/callback\"")
     }
 
     buildTypes {
@@ -72,10 +78,15 @@ dependencies {
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     
+    // Browser - Chrome Custom Tabs
+    implementation("androidx.browser:browser:1.7.0")
+    
     // Lifecycle
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
+    implementation("androidx.activity:activity-ktx:1.8.2")
+    implementation("androidx.fragment:fragment-ktx:1.6.2")
     
     // Hilt Dependency Injection
     implementation("com.google.dagger:hilt-android:2.51")
@@ -115,6 +126,12 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
     
+    // Security - Encrypted SharedPreferences
+    implementation("androidx.security:security-crypto:1.1.0-alpha06")
+    
+    // Logging - Timber
+    implementation("com.jakewharton.timber:timber:5.0.1")
+    
     // Testing - JUnit 4
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.jetbrains.kotlin:kotlin-test:1.9.20")
@@ -125,6 +142,9 @@ dependencies {
     
     // Testing - Coroutines
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
+    
+    // Testing - AndroidX Architecture Components
+    testImplementation("androidx.arch.core:core-testing:2.2.0")
     
     // Testing - Hilt
     testImplementation("com.google.dagger:hilt-android-testing:2.51")

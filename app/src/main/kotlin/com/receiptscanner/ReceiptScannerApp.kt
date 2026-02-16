@@ -2,6 +2,7 @@ package com.receiptscanner
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
+import timber.log.Timber
 
 /**
  * Application class for Receipt Scanner.
@@ -15,7 +16,9 @@ class ReceiptScannerApp : Application() {
     override fun onCreate() {
         super.onCreate()
         
-        // Application-level initialization will go here
-        // (e.g., WorkManager, Timber, etc.)
+        // Initialize Timber for logging
+        if (BuildConfig.DEBUG) {
+            Timber.plant(Timber.DebugTree())
+        }
     }
 }

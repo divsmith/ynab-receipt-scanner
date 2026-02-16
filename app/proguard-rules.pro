@@ -45,3 +45,17 @@
 -keepclasseswithmembers class * {
     @dagger.hilt.* <fields>;
 }
+
+# Security - Keep domain models for proper serialization
+-keep class com.receiptscanner.domain.model.** { *; }
+-keep class com.receiptscanner.data.remote.dto.** { *; }
+
+# Security - Obfuscate auth implementation classes
+# keepnames preserves the class name but allows member obfuscation
+-keepnames class com.receiptscanner.data.local.KeystoreManager
+-keepnames class com.receiptscanner.data.repository.YnabAuthRepositoryImpl
+
+# Retrofit service methods
+-keepclassmembers,allowshrinking,allowobfuscation interface * {
+    @retrofit2.http.* <methods>;
+}

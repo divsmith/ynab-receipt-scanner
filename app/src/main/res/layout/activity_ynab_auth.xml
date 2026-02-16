@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".presentation.auth.YnabAuthActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/auth_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/auth_status_not_connected"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvStatus"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/btnConnectYnab"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/auth_btn_connect"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/progressBar" />
+
+    <Button
+        android:id="@+id/btnCheckAuthStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/auth_btn_check_status"
+        android:layout_marginTop="16dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnConnectYnab" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/auth_btn_logout"
+        android:layout_marginTop="16dp"
+        android:enabled="false"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnCheckAuthStatus" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
