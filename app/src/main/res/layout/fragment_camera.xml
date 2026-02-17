@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".presentation.camera.CameraFragment">
+
+    <!-- Camera Preview -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/preview_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:scaleType="fillCenter" />
+
+    <!-- Framing Overlay -->
+    <com.receiptscanner.presentation.camera.FramingOverlayView
+        android:id="@+id/framing_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Top controls bar -->
+    <LinearLayout
+        android:id="@+id/top_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="end"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Close button -->
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:contentDescription="@string/close"
+            android:tint="@android:color/white" />
+
+        <!-- Flash toggle button -->
+        <ImageButton
+            android:id="@+id/btn_flash"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_menu_camera"
+            android:contentDescription="@string/toggle_flash"
+            android:tint="@android:color/white" />
+    </LinearLayout>
+
+    <!-- Bottom controls bar -->
+    <LinearLayout
+        android:id="@+id/bottom_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Capture button -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/capture_receipt"
+            app:srcCompat="@android:drawable/ic_menu_camera"
+            app:fabSize="normal"
+            app:tint="@android:color/white"
+            android:backgroundTint="@color/design_default_color_primary" />
+
+        <!-- Status text -->
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:text="@string/ready_to_capture"
+            tools:text="Ready to capture" />
+    </LinearLayout>
+
+    <!-- Loading indicator -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:visibility="gone"
+        android:indeterminateTint="@android:color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:visibility="visible" />
+
+    <!-- Error message -->
+    <TextView
+        android:id="@+id/tv_error"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:padding="16dp"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:visibility="gone"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/top_controls"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:visibility="visible"
+        tools:text="Camera error: Unable to access camera" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

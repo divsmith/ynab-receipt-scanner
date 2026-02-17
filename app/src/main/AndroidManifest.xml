@@ -14,6 +14,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReceiptScanner">
         
+        <!-- Camera Capture Activity -->
+        <activity
+            android:name=".presentation.camera.CameraActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        
         <!-- YNAB OAuth Authentication Activity -->
         <activity
             android:name=".presentation.auth.YnabAuthActivity"

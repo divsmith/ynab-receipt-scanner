@@ -32,7 +32,11 @@ class BuildConfigTest {
 
     @Test
     fun `debug build should be debuggable`() {
-        // In debug builds, DEBUG flag should be true
-        assertEquals("Debug build should have DEBUG=true", "debug", BuildConfig.BUILD_TYPE.lowercase())
+        // DEBUG boolean should reflect BUILD_TYPE being 'debug'
+        assertEquals(
+            "DEBUG flag must match BUILD_TYPE",
+            BuildConfig.BUILD_TYPE.equals("debug", ignoreCase = true),
+            BuildConfig.DEBUG
+        )
     }
 }

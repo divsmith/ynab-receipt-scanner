@@ -2,19 +2,25 @@ package com.receiptscanner.data.local
 
 import android.content.Context
 import android.content.SharedPreferences
+import android.util.Base64
 import androidx.security.crypto.EncryptedSharedPreferences
 import androidx.security.crypto.MasterKeys
 import com.receiptscanner.domain.model.YnabToken
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.adapter
 import timber.log.Timber
+import java.security.KeyStore
 import java.time.Instant
+import javax.crypto.Cipher
+import javax.crypto.KeyGenerator
+import javax.crypto.SecretKey
+import javax.crypto.spec.GCMParameterSpec
 import javax.inject.Inject
 import javax.inject.Singleton
 
 /**
- * Manages secure storage of YNAB OAuth tokens using Android Keystore
- * via EncryptedSharedPreferences.
+ * Manages secure storage of YNAB OAuth tokens and encryption/decryption
+ * of receipt images using Android Keystore.
  */
 @Singleton
 class KeystoreManager @Inject constructor(
@@ -27,6 +33,11 @@ class KeystoreManager @Inject constructor(
         private const val KEY_EXPIRES_IN = "expires_in"
         private const val KEY_TOKEN_TYPE = "token_type"
         private const val KEY_CREATED_AT = "created_at"
+        
+        private const val KEYSTORE_ALIAS = "ReceiptImageKey"
+        private const val TRANSFORMATION = "AES/GCM/NoPadding"
+        private const val GCM_TAG_LENGTH = 128
+        private const val IV_SIZE = 12
     }
 
     private val moshi = Moshi.Builder().build()
@@ -46,6 +57,75 @@ class KeystoreManager @Inject constructor(
             Timber.e(e, "Error creating encrypted shared preferences, falling back to regular")
             // Fallback to regular SharedPreferences for testing/dev
             context.getSharedPreferences(PREFS_FILE_NAME, Context.MODE_PRIVATE)
+        }
+    }
+
+    private val keyStore: KeyStore by lazy {
+        KeyStore.getInstance("AndroidKeyStore").apply {
+            load(null)
+        }
+    }
+
+    /**
+     * Gets or creates the encryption key
+     */
+    private fun getOrCreateKey(): SecretKey {
+        // Check if key exists
+        if (keyStore.containsAlias(KEYSTORE_ALIAS)) {
+            return keyStore.getKey(KEYSTORE_ALIAS, null) as SecretKey
+        }
+
+        // Create new key
+        val keyGenerator = KeyGenerator.getInstance("AES")
+        keyGenerator.init(256)
+        return keyGenerator.generateKey()
+    }
+
+    /**
+     * Encrypts data using AES-GCM
+     * @param data Data to encrypt
+     * @return Encrypted data with IV prepended, or null if encryption fails
+     */
+    fun encrypt(data: ByteArray): ByteArray? {
+        return try {
+            val cipher = Cipher.getInstance(TRANSFORMATION)
+            cipher.init(Cipher.ENCRYPT_MODE, getOrCreateKey())
+            
+            val iv = cipher.iv
+            val encryptedData = cipher.doFinal(data)
+            
+            // Prepend IV to encrypted data
+            iv + encryptedData
+        } catch (e: Exception) {
+            Timber.e(e, "Error encrypting data")
+            null
+        }
+    }
+
+    /**
+     * Decrypts data using AES-GCM
+     * @param encryptedData Encrypted data with IV prepended
+     * @return Decrypted data, or null if decryption fails
+     */
+    fun decrypt(encryptedData: ByteArray): ByteArray? {
+        return try {
+            if (encryptedData.size < IV_SIZE) {
+                Timber.e("Encrypted data too small to contain IV")
+                return null
+            }
+            
+            // Extract IV and encrypted data
+            val iv = encryptedData.copyOfRange(0, IV_SIZE)
+            val actualEncryptedData = encryptedData.copyOfRange(IV_SIZE, encryptedData.size)
+            
+            val cipher = Cipher.getInstance(TRANSFORMATION)
+            val spec = GCMParameterSpec(GCM_TAG_LENGTH, iv)
+            cipher.init(Cipher.DECRYPT_MODE, getOrCreateKey(), spec)
+            
+            cipher.doFinal(actualEncryptedData)
+        } catch (e: Exception) {
+            Timber.e(e, "Error decrypting data")
+            null
         }
     }
 

@@ -13,5 +13,18 @@
     <string name="auth_success">Successfully authenticated!</string>
     <string name="auth_error_no_browser">No browser available to open URL</string>
     <string name="auth_error_oauth">OAuth error: %1$s</string>
+    
+    <!-- Camera Activity -->
+    <string name="close">Close</string>
+    <string name="toggle_flash">Toggle flash</string>
+    <string name="capture_receipt">Capture receipt</string>
+    <string name="ready_to_capture">Ready to capture</string>
+    <string name="camera_permission_required">Camera permission required</string>
+    <string name="camera_permission_rationale">Camera access is needed to capture receipt images</string>
+    <string name="camera_initializing">Initializing camera…</string>
+    <string name="camera_capturing">Capturing…</string>
+    <string name="camera_success">Receipt captured successfully!</string>
+    <string name="camera_error">Camera error: %1$s</string>
+    <string name="camera_permission_settings">Go to Settings</string>
 </resources>
 

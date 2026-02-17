@@ -1,6 +1,8 @@
 package com.receiptscanner.di
 
+import com.receiptscanner.data.repository.ImageRepositoryImpl
 import com.receiptscanner.data.repository.YnabAuthRepositoryImpl
+import com.receiptscanner.domain.repository.ImageRepository
 import com.receiptscanner.domain.repository.YnabAuthRepository
 import dagger.Binds
 import dagger.Module
@@ -20,4 +22,10 @@ abstract class RepositoryModule {
     abstract fun bindYnabAuthRepository(
         impl: YnabAuthRepositoryImpl
     ): YnabAuthRepository
+
+    @Binds
+    @Singleton
+    abstract fun bindImageRepository(
+        impl: ImageRepositoryImpl
+    ): ImageRepository
 }
