@@ -1,0 +1,340 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.7/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+WARNING: We recommend using a newer Android Gradle plugin to use compileSdk = 35
+
+This Android Gradle plugin (8.5.2) was tested up to compileSdk = 34.
+
+You are strongly encouraged to update your project to use a newer
+Android Gradle plugin that has been tested with compileSdk = 35.
+
+If you are already using the latest version of the Android Gradle plugin,
+you may need to wait until a newer version with support for compileSdk = 35 is available.
+
+For more information refer to the compatibility table:
+https://d.android.com/r/tools/api-level-support
+
+To suppress this warning, add/update
+    android.suppressUnsupportedCompileSdk=35
+to this project's gradle.properties.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :data-local:preBuild UP-TO-DATE
+> Task :data-local:preDebugBuild UP-TO-DATE
+> Task :data-local:writeDebugAarMetadata UP-TO-DATE
+> Task :data-ocr:preBuild UP-TO-DATE
+> Task :data-ocr:preDebugBuild UP-TO-DATE
+> Task :data-ocr:writeDebugAarMetadata UP-TO-DATE
+> Task :data-parser:preBuild UP-TO-DATE
+> Task :data-parser:preDebugBuild UP-TO-DATE
+> Task :data-parser:writeDebugAarMetadata UP-TO-DATE
+> Task :data-ynab:preBuild UP-TO-DATE
+> Task :data-ynab:preDebugBuild UP-TO-DATE
+> Task :data-ynab:writeDebugAarMetadata UP-TO-DATE
+> Task :domain:preBuild UP-TO-DATE
+> Task :domain:preDebugBuild UP-TO-DATE
+> Task :domain:writeDebugAarMetadata UP-TO-DATE
+> Task :feature-auth:preBuild UP-TO-DATE
+> Task :feature-auth:preDebugBuild UP-TO-DATE
+> Task :feature-auth:writeDebugAarMetadata UP-TO-DATE
+> Task :feature-history:preBuild UP-TO-DATE
+> Task :feature-history:preDebugBuild UP-TO-DATE
+> Task :feature-history:writeDebugAarMetadata UP-TO-DATE
+> Task :feature-review:preBuild UP-TO-DATE
+> Task :feature-review:preDebugBuild UP-TO-DATE
+> Task :feature-review:writeDebugAarMetadata UP-TO-DATE
+> Task :feature-scan:preBuild UP-TO-DATE
+> Task :feature-scan:preDebugBuild UP-TO-DATE
+> Task :feature-scan:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :data-local:generateDebugResValues UP-TO-DATE
+> Task :data-local:generateDebugResources UP-TO-DATE
+> Task :data-local:packageDebugResources UP-TO-DATE
+> Task :data-ocr:generateDebugResValues UP-TO-DATE
+> Task :data-ocr:generateDebugResources UP-TO-DATE
+> Task :data-ocr:packageDebugResources UP-TO-DATE
+> Task :data-parser:generateDebugResValues UP-TO-DATE
+> Task :data-parser:generateDebugResources UP-TO-DATE
+> Task :data-parser:packageDebugResources UP-TO-DATE
+> Task :data-ynab:generateDebugResValues UP-TO-DATE
+> Task :data-ynab:generateDebugResources UP-TO-DATE
+> Task :data-ynab:packageDebugResources UP-TO-DATE
+> Task :domain:generateDebugResValues UP-TO-DATE
+> Task :domain:generateDebugResources UP-TO-DATE
+> Task :domain:packageDebugResources UP-TO-DATE
+> Task :feature-auth:generateDebugResValues UP-TO-DATE
+> Task :feature-auth:generateDebugResources UP-TO-DATE
+> Task :feature-auth:packageDebugResources UP-TO-DATE
+> Task :feature-history:generateDebugResValues UP-TO-DATE
+> Task :feature-history:generateDebugResources UP-TO-DATE
+> Task :feature-history:packageDebugResources UP-TO-DATE
+> Task :feature-review:generateDebugResValues UP-TO-DATE
+> Task :feature-review:generateDebugResources UP-TO-DATE
+> Task :feature-review:packageDebugResources UP-TO-DATE
+> Task :feature-scan:generateDebugResValues UP-TO-DATE
+> Task :feature-scan:generateDebugResources UP-TO-DATE
+> Task :feature-scan:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :data-local:extractDeepLinksDebug UP-TO-DATE
+> Task :data-local:processDebugManifest UP-TO-DATE
+> Task :data-ocr:extractDeepLinksDebug UP-TO-DATE
+> Task :data-ocr:processDebugManifest UP-TO-DATE
+> Task :data-parser:extractDeepLinksDebug UP-TO-DATE
+> Task :data-parser:processDebugManifest UP-TO-DATE
+> Task :data-ynab:extractDeepLinksDebug UP-TO-DATE
+> Task :data-ynab:processDebugManifest UP-TO-DATE
+> Task :domain:extractDeepLinksDebug UP-TO-DATE
+> Task :domain:processDebugManifest UP-TO-DATE
+> Task :feature-auth:extractDeepLinksDebug UP-TO-DATE
+> Task :feature-auth:processDebugManifest UP-TO-DATE
+> Task :feature-history:extractDeepLinksDebug UP-TO-DATE
+> Task :feature-history:processDebugManifest UP-TO-DATE
+> Task :feature-review:extractDeepLinksDebug UP-TO-DATE
+> Task :feature-review:processDebugManifest UP-TO-DATE
+> Task :feature-scan:extractDeepLinksDebug UP-TO-DATE
+> Task :feature-scan:processDebugManifest UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :data-local:compileDebugLibraryResources UP-TO-DATE
+> Task :data-local:parseDebugLocalResources UP-TO-DATE
+> Task :data-local:generateDebugRFile UP-TO-DATE
+> Task :data-ocr:compileDebugLibraryResources UP-TO-DATE
+> Task :data-ocr:parseDebugLocalResources UP-TO-DATE
+> Task :data-ocr:generateDebugRFile UP-TO-DATE
+> Task :data-parser:compileDebugLibraryResources UP-TO-DATE
+> Task :data-parser:parseDebugLocalResources UP-TO-DATE
+> Task :data-parser:generateDebugRFile UP-TO-DATE
+> Task :data-ynab:compileDebugLibraryResources UP-TO-DATE
+> Task :data-ynab:parseDebugLocalResources UP-TO-DATE
+> Task :data-ynab:generateDebugRFile UP-TO-DATE
+> Task :domain:compileDebugLibraryResources UP-TO-DATE
+> Task :domain:parseDebugLocalResources UP-TO-DATE
+> Task :domain:generateDebugRFile UP-TO-DATE
+> Task :feature-auth:compileDebugLibraryResources UP-TO-DATE
+> Task :feature-auth:parseDebugLocalResources UP-TO-DATE
+> Task :feature-auth:generateDebugRFile UP-TO-DATE
+> Task :feature-history:compileDebugLibraryResources UP-TO-DATE
+> Task :feature-history:parseDebugLocalResources UP-TO-DATE
+> Task :feature-history:generateDebugRFile UP-TO-DATE
+> Task :feature-review:compileDebugLibraryResources UP-TO-DATE
+> Task :feature-review:parseDebugLocalResources UP-TO-DATE
+> Task :feature-review:generateDebugRFile UP-TO-DATE
+> Task :feature-scan:compileDebugLibraryResources UP-TO-DATE
+> Task :feature-scan:parseDebugLocalResources UP-TO-DATE
+> Task :feature-scan:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :data-local:checkKotlinGradlePluginConfigurationErrors
+> Task :domain:checkKotlinGradlePluginConfigurationErrors
+> Task :domain:compileDebugKotlin UP-TO-DATE
+> Task :domain:javaPreCompileDebug UP-TO-DATE
+> Task :domain:compileDebugJavaWithJavac NO-SOURCE
+> Task :domain:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :data-local:kaptGenerateStubsDebugKotlin UP-TO-DATE
+> Task :data-local:kaptDebugKotlin UP-TO-DATE
+> Task :data-local:compileDebugKotlin UP-TO-DATE
+> Task :data-local:javaPreCompileDebug UP-TO-DATE
+> Task :data-local:compileDebugJavaWithJavac UP-TO-DATE
+> Task :data-ocr:checkKotlinGradlePluginConfigurationErrors
+> Task :data-local:bundleLibCompileToJarDebug
+> Task :data-ocr:compileDebugKotlin UP-TO-DATE
+> Task :data-ocr:javaPreCompileDebug UP-TO-DATE
+> Task :data-ocr:compileDebugJavaWithJavac NO-SOURCE
+> Task :data-ocr:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :data-parser:checkKotlinGradlePluginConfigurationErrors
+> Task :data-parser:compileDebugKotlin UP-TO-DATE
+> Task :data-parser:javaPreCompileDebug UP-TO-DATE
+> Task :data-parser:compileDebugJavaWithJavac NO-SOURCE
+> Task :data-parser:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :data-ynab:checkKotlinGradlePluginConfigurationErrors
+> Task :data-ynab:compileDebugKotlin UP-TO-DATE
+> Task :data-ynab:javaPreCompileDebug UP-TO-DATE
+> Task :data-ynab:compileDebugJavaWithJavac NO-SOURCE
+> Task :data-ynab:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :feature-auth:checkKotlinGradlePluginConfigurationErrors
+> Task :feature-auth:compileDebugKotlin UP-TO-DATE
+> Task :feature-auth:javaPreCompileDebug UP-TO-DATE
+> Task :feature-auth:compileDebugJavaWithJavac NO-SOURCE
+> Task :feature-auth:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :feature-history:checkKotlinGradlePluginConfigurationErrors
+> Task :feature-history:compileDebugKotlin UP-TO-DATE
+> Task :feature-history:javaPreCompileDebug UP-TO-DATE
+> Task :feature-history:compileDebugJavaWithJavac NO-SOURCE
+> Task :feature-history:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :feature-review:checkKotlinGradlePluginConfigurationErrors
+> Task :feature-review:compileDebugKotlin UP-TO-DATE
+> Task :feature-review:javaPreCompileDebug UP-TO-DATE
+> Task :feature-review:compileDebugJavaWithJavac NO-SOURCE
+> Task :feature-review:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :feature-scan:checkKotlinGradlePluginConfigurationErrors
+> Task :feature-scan:compileDebugKotlin UP-TO-DATE
+> Task :feature-scan:javaPreCompileDebug UP-TO-DATE
+> Task :feature-scan:compileDebugJavaWithJavac NO-SOURCE
+> Task :feature-scan:bundleLibCompileToJarDebug
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :data-local:mergeDebugShaders UP-TO-DATE
+> Task :data-local:compileDebugShaders NO-SOURCE
+> Task :data-local:generateDebugAssets UP-TO-DATE
+> Task :data-local:packageDebugAssets UP-TO-DATE
+> Task :data-ocr:mergeDebugShaders UP-TO-DATE
+> Task :data-ocr:compileDebugShaders NO-SOURCE
+> Task :data-ocr:generateDebugAssets UP-TO-DATE
+> Task :data-ocr:packageDebugAssets UP-TO-DATE
+> Task :data-parser:mergeDebugShaders UP-TO-DATE
+> Task :data-parser:compileDebugShaders NO-SOURCE
+> Task :data-parser:generateDebugAssets UP-TO-DATE
+> Task :data-parser:packageDebugAssets UP-TO-DATE
+> Task :data-ynab:mergeDebugShaders UP-TO-DATE
+> Task :data-ynab:compileDebugShaders NO-SOURCE
+> Task :data-ynab:generateDebugAssets UP-TO-DATE
+> Task :data-ynab:packageDebugAssets UP-TO-DATE
+> Task :domain:mergeDebugShaders UP-TO-DATE
+> Task :domain:compileDebugShaders NO-SOURCE
+> Task :domain:generateDebugAssets UP-TO-DATE
+> Task :domain:packageDebugAssets UP-TO-DATE
+> Task :feature-auth:mergeDebugShaders UP-TO-DATE
+> Task :feature-auth:compileDebugShaders NO-SOURCE
+> Task :feature-auth:generateDebugAssets UP-TO-DATE
+> Task :feature-auth:packageDebugAssets UP-TO-DATE
+> Task :feature-history:mergeDebugShaders UP-TO-DATE
+> Task :feature-history:compileDebugShaders NO-SOURCE
+> Task :feature-history:generateDebugAssets UP-TO-DATE
+> Task :feature-history:packageDebugAssets UP-TO-DATE
+> Task :feature-review:mergeDebugShaders UP-TO-DATE
+> Task :feature-review:compileDebugShaders NO-SOURCE
+> Task :feature-review:generateDebugAssets UP-TO-DATE
+> Task :feature-review:packageDebugAssets UP-TO-DATE
+> Task :feature-scan:mergeDebugShaders UP-TO-DATE
+> Task :feature-scan:compileDebugShaders NO-SOURCE
+> Task :feature-scan:generateDebugAssets UP-TO-DATE
+> Task :feature-scan:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :data-local:bundleLibRuntimeToJarDebug
+> Task :data-ocr:bundleLibRuntimeToJarDebug
+> Task :data-parser:bundleLibRuntimeToJarDebug
+> Task :data-ynab:bundleLibRuntimeToJarDebug
+> Task :domain:bundleLibRuntimeToJarDebug
+> Task :app:compressDebugAssets
+> Task :feature-auth:bundleLibRuntimeToJarDebug
+> Task :feature-history:bundleLibRuntimeToJarDebug
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :feature-review:bundleLibRuntimeToJarDebug
+> Task :feature-scan:bundleLibRuntimeToJarDebug
+> Task :app:desugarDebugFileDependencies
+> Task :data-local:processDebugJavaRes
+> Task :data-ocr:processDebugJavaRes
+> Task :data-parser:processDebugJavaRes
+> Task :data-ynab:processDebugJavaRes
+> Task :domain:processDebugJavaRes
+> Task :feature-auth:processDebugJavaRes
+> Task :feature-history:processDebugJavaRes
+> Task :feature-review:processDebugJavaRes
+> Task :feature-scan:processDebugJavaRes
+> Task :app:mergeDebugStartupProfile
+> Task :app:checkDebugDuplicateClasses
+> Task :data-ocr:bundleLibRuntimeToDirDebug
+> Task :data-local:bundleLibRuntimeToDirDebug
+> Task :data-parser:bundleLibRuntimeToDirDebug
+> Task :app:kaptDebugKotlin
+> Task :data-ynab:bundleLibRuntimeToDirDebug
+> Task :feature-auth:bundleLibRuntimeToDirDebug
+> Task :domain:bundleLibRuntimeToDirDebug
+> Task :feature-history:bundleLibRuntimeToDirDebug
+> Task :feature-review:bundleLibRuntimeToDirDebug
+> Task :feature-scan:bundleLibRuntimeToDirDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :data-local:mergeDebugJniLibFolders
+> Task :data-local:mergeDebugNativeLibs NO-SOURCE
+> Task :data-local:copyDebugJniLibsProjectOnly
+> Task :data-ocr:mergeDebugJniLibFolders
+> Task :data-ocr:mergeDebugNativeLibs NO-SOURCE
+> Task :data-ocr:copyDebugJniLibsProjectOnly
+> Task :data-parser:mergeDebugJniLibFolders
+> Task :data-parser:mergeDebugNativeLibs NO-SOURCE
+> Task :data-parser:copyDebugJniLibsProjectOnly
+> Task :data-ynab:mergeDebugJniLibFolders
+> Task :data-ynab:mergeDebugNativeLibs NO-SOURCE
+> Task :data-ynab:copyDebugJniLibsProjectOnly
+> Task :domain:mergeDebugJniLibFolders
+> Task :domain:mergeDebugNativeLibs NO-SOURCE
+> Task :domain:copyDebugJniLibsProjectOnly
+> Task :feature-auth:mergeDebugJniLibFolders
+> Task :feature-auth:mergeDebugNativeLibs NO-SOURCE
+> Task :feature-auth:copyDebugJniLibsProjectOnly
+> Task :feature-history:mergeDebugJniLibFolders
+> Task :feature-history:mergeDebugNativeLibs NO-SOURCE
+> Task :feature-history:copyDebugJniLibsProjectOnly
+> Task :feature-review:mergeDebugJniLibFolders
+> Task :feature-review:mergeDebugNativeLibs NO-SOURCE
+> Task :feature-review:copyDebugJniLibsProjectOnly
+> Task :feature-scan:mergeDebugJniLibFolders
+> Task :feature-scan:mergeDebugNativeLibs NO-SOURCE
+> Task :app:mergeLibDexDebug
+> Task :feature-scan:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :domain:preDebugUnitTestBuild UP-TO-DATE
+> Task :domain:generateDebugUnitTestStubRFile
+> Task :domain:javaPreCompileDebugUnitTest
+> Task :app:mergeDebugNativeLibs
+> Task :domain:preReleaseBuild UP-TO-DATE
+> Task :domain:generateReleaseResValues
+> Task :domain:generateReleaseResources
+> Task :domain:packageReleaseResources
+> Task :domain:preReleaseUnitTestBuild UP-TO-DATE
+> Task :domain:parseReleaseLocalResources
+> Task :domain:javaPreCompileRelease
+> Task :domain:javaPreCompileReleaseUnitTest
+> Task :domain:generateReleaseRFile
+> Task :domain:generateReleaseUnitTestStubRFile
+> Task :domain:compileDebugUnitTestKotlin
+> Task :domain:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :domain:processDebugUnitTestJavaRes
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libimage_processing_util_jni.so, libmlkit_google_ocr_pipeline.so, libsurface_util_jni.so.
+
+> Task :domain:compileReleaseKotlin
+
+> Task :app:compileDebugKotlin
+w: file:///Users/parker/code/ynab-receipt-scanner/app/src/main/kotlin/com/ynab/receipts/ReceiptScannerApp.kt:59:9 Parameter 'paddingValues' is never used, could be renamed to _
+w: file:///Users/parker/code/ynab-receipt-scanner/app/src/main/kotlin/com/ynab/receipts/di/AppModule.kt:75:9 This declaration needs opt-in. Its usage should be marked with '@kotlinx.serialization.ExperimentalSerializationApi' or '@OptIn(kotlinx.serialization.ExperimentalSerializationApi::class)'
+
+> Task :domain:testDebugUnitTest
+> Task :app:mergeExtDexDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :domain:compileReleaseJavaWithJavac NO-SOURCE
+> Task :domain:bundleLibRuntimeToJarRelease
+> Task :domain:bundleLibCompileToJarRelease
+> Task :domain:processReleaseJavaRes
+> Task :app:hiltAggregateDepsDebug
+> Task :domain:compileReleaseUnitTestKotlin
+> Task :app:hiltJavaCompileDebug
+> Task :app:processDebugJavaRes
+> Task :app:transformDebugClassesWithAsm
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugGlobalSynthetics
+> Task :domain:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :domain:processReleaseUnitTestJavaRes
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugJavaResource
+> Task :domain:testReleaseUnitTest
+> Task :domain:test
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+
+BUILD SUCCESSFUL in 55s
+246 actionable tasks: 103 executed, 143 up-to-date

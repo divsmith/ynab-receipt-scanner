@@ -1,0 +1,487 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.7/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+WARNING: We recommend using a newer Android Gradle plugin to use compileSdk = 35
+
+This Android Gradle plugin (8.5.2) was tested up to compileSdk = 34.
+
+You are strongly encouraged to update your project to use a newer
+Android Gradle plugin that has been tested with compileSdk = 35.
+
+If you are already using the latest version of the Android Gradle plugin,
+you may need to wait until a newer version with support for compileSdk = 35 is available.
+
+For more information refer to the compatibility table:
+https://d.android.com/r/tools/api-level-support
+
+To suppress this warning, add/update
+    android.suppressUnsupportedCompileSdk=35
+to this project's gradle.properties.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :data-local:preBuild UP-TO-DATE
+> Task :data-local:preDebugBuild UP-TO-DATE
+> Task :data-local:writeDebugAarMetadata UP-TO-DATE
+> Task :data-ocr:preBuild UP-TO-DATE
+> Task :data-ocr:preDebugBuild UP-TO-DATE
+> Task :data-ocr:writeDebugAarMetadata UP-TO-DATE
+> Task :data-parser:preBuild UP-TO-DATE
+> Task :data-parser:preDebugBuild UP-TO-DATE
+> Task :data-parser:writeDebugAarMetadata UP-TO-DATE
+> Task :data-ynab:preBuild UP-TO-DATE
+> Task :data-ynab:preDebugBuild UP-TO-DATE
+> Task :data-ynab:writeDebugAarMetadata UP-TO-DATE
+> Task :domain:preBuild UP-TO-DATE
+> Task :domain:preDebugBuild UP-TO-DATE
+> Task :domain:writeDebugAarMetadata UP-TO-DATE
+> Task :feature-auth:preBuild UP-TO-DATE
+> Task :feature-auth:preDebugBuild UP-TO-DATE
+> Task :feature-auth:writeDebugAarMetadata UP-TO-DATE
+> Task :feature-history:preBuild UP-TO-DATE
+> Task :feature-history:preDebugBuild UP-TO-DATE
+> Task :feature-history:writeDebugAarMetadata UP-TO-DATE
+> Task :feature-review:preBuild UP-TO-DATE
+> Task :feature-review:preDebugBuild UP-TO-DATE
+> Task :feature-review:writeDebugAarMetadata UP-TO-DATE
+> Task :feature-scan:preBuild UP-TO-DATE
+> Task :feature-scan:preDebugBuild UP-TO-DATE
+> Task :feature-scan:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :data-local:generateDebugResValues UP-TO-DATE
+> Task :data-local:generateDebugResources UP-TO-DATE
+> Task :data-local:packageDebugResources UP-TO-DATE
+> Task :data-ocr:generateDebugResValues UP-TO-DATE
+> Task :data-ocr:generateDebugResources UP-TO-DATE
+> Task :data-ocr:packageDebugResources UP-TO-DATE
+> Task :data-parser:generateDebugResValues UP-TO-DATE
+> Task :data-parser:generateDebugResources UP-TO-DATE
+> Task :data-parser:packageDebugResources UP-TO-DATE
+> Task :data-ynab:generateDebugResValues UP-TO-DATE
+> Task :data-ynab:generateDebugResources UP-TO-DATE
+> Task :data-ynab:packageDebugResources UP-TO-DATE
+> Task :domain:generateDebugResValues UP-TO-DATE
+> Task :domain:generateDebugResources UP-TO-DATE
+> Task :domain:packageDebugResources UP-TO-DATE
+> Task :feature-auth:generateDebugResValues UP-TO-DATE
+> Task :feature-auth:generateDebugResources UP-TO-DATE
+> Task :feature-auth:packageDebugResources UP-TO-DATE
+> Task :feature-history:generateDebugResValues UP-TO-DATE
+> Task :feature-history:generateDebugResources UP-TO-DATE
+> Task :feature-history:packageDebugResources UP-TO-DATE
+> Task :feature-review:generateDebugResValues UP-TO-DATE
+> Task :feature-review:generateDebugResources UP-TO-DATE
+> Task :feature-review:packageDebugResources UP-TO-DATE
+> Task :feature-scan:generateDebugResValues UP-TO-DATE
+> Task :feature-scan:generateDebugResources UP-TO-DATE
+> Task :feature-scan:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :data-local:extractDeepLinksDebug UP-TO-DATE
+> Task :data-local:processDebugManifest UP-TO-DATE
+> Task :data-ocr:extractDeepLinksDebug UP-TO-DATE
+> Task :data-ocr:processDebugManifest UP-TO-DATE
+> Task :data-parser:extractDeepLinksDebug UP-TO-DATE
+> Task :data-parser:processDebugManifest UP-TO-DATE
+> Task :data-ynab:extractDeepLinksDebug UP-TO-DATE
+> Task :data-ynab:processDebugManifest UP-TO-DATE
+> Task :domain:extractDeepLinksDebug UP-TO-DATE
+> Task :domain:processDebugManifest UP-TO-DATE
+> Task :feature-auth:extractDeepLinksDebug UP-TO-DATE
+> Task :feature-auth:processDebugManifest UP-TO-DATE
+> Task :feature-history:extractDeepLinksDebug UP-TO-DATE
+> Task :feature-history:processDebugManifest UP-TO-DATE
+> Task :feature-review:extractDeepLinksDebug UP-TO-DATE
+> Task :feature-review:processDebugManifest UP-TO-DATE
+> Task :feature-scan:extractDeepLinksDebug UP-TO-DATE
+> Task :feature-scan:processDebugManifest UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :data-local:compileDebugLibraryResources UP-TO-DATE
+> Task :data-local:parseDebugLocalResources UP-TO-DATE
+> Task :data-local:generateDebugRFile UP-TO-DATE
+> Task :data-ocr:compileDebugLibraryResources UP-TO-DATE
+> Task :data-ocr:parseDebugLocalResources UP-TO-DATE
+> Task :data-ocr:generateDebugRFile UP-TO-DATE
+> Task :data-parser:compileDebugLibraryResources UP-TO-DATE
+> Task :data-parser:parseDebugLocalResources UP-TO-DATE
+> Task :data-parser:generateDebugRFile UP-TO-DATE
+> Task :data-ynab:compileDebugLibraryResources UP-TO-DATE
+> Task :data-ynab:parseDebugLocalResources UP-TO-DATE
+> Task :data-ynab:generateDebugRFile UP-TO-DATE
+> Task :domain:compileDebugLibraryResources UP-TO-DATE
+> Task :domain:parseDebugLocalResources UP-TO-DATE
+> Task :domain:generateDebugRFile UP-TO-DATE
+> Task :feature-auth:compileDebugLibraryResources UP-TO-DATE
+> Task :feature-auth:parseDebugLocalResources UP-TO-DATE
+> Task :feature-auth:generateDebugRFile UP-TO-DATE
+> Task :feature-history:compileDebugLibraryResources UP-TO-DATE
+> Task :feature-history:parseDebugLocalResources UP-TO-DATE
+> Task :feature-history:generateDebugRFile UP-TO-DATE
+> Task :feature-review:compileDebugLibraryResources UP-TO-DATE
+> Task :feature-review:parseDebugLocalResources UP-TO-DATE
+> Task :feature-review:generateDebugRFile UP-TO-DATE
+> Task :feature-scan:compileDebugLibraryResources UP-TO-DATE
+> Task :feature-scan:parseDebugLocalResources UP-TO-DATE
+> Task :feature-scan:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :data-local:checkKotlinGradlePluginConfigurationErrors
+> Task :domain:checkKotlinGradlePluginConfigurationErrors
+> Task :domain:compileDebugKotlin UP-TO-DATE
+> Task :domain:javaPreCompileDebug UP-TO-DATE
+> Task :domain:compileDebugJavaWithJavac NO-SOURCE
+> Task :domain:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :data-local:kaptGenerateStubsDebugKotlin UP-TO-DATE
+> Task :data-local:kaptDebugKotlin UP-TO-DATE
+> Task :data-local:compileDebugKotlin UP-TO-DATE
+> Task :data-local:javaPreCompileDebug UP-TO-DATE
+> Task :data-local:compileDebugJavaWithJavac UP-TO-DATE
+> Task :data-local:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :data-ocr:checkKotlinGradlePluginConfigurationErrors
+> Task :data-ocr:javaPreCompileDebug UP-TO-DATE
+> Task :data-parser:checkKotlinGradlePluginConfigurationErrors
+> Task :data-parser:javaPreCompileDebug UP-TO-DATE
+> Task :data-ynab:checkKotlinGradlePluginConfigurationErrors
+> Task :data-ynab:javaPreCompileDebug UP-TO-DATE
+> Task :feature-auth:checkKotlinGradlePluginConfigurationErrors
+> Task :data-ocr:compileDebugKotlin
+> Task :data-ynab:compileDebugKotlin
+> Task :data-parser:compileDebugKotlin
+> Task :data-ocr:compileDebugJavaWithJavac NO-SOURCE
+> Task :data-parser:compileDebugJavaWithJavac NO-SOURCE
+> Task :data-ynab:compileDebugJavaWithJavac NO-SOURCE
+> Task :data-ocr:bundleLibCompileToJarDebug
+> Task :data-parser:bundleLibCompileToJarDebug
+> Task :data-ynab:bundleLibCompileToJarDebug
+> Task :feature-history:checkKotlinGradlePluginConfigurationErrors
+> Task :feature-auth:javaPreCompileDebug
+> Task :feature-review:checkKotlinGradlePluginConfigurationErrors
+> Task :feature-history:javaPreCompileDebug
+> Task :feature-scan:checkKotlinGradlePluginConfigurationErrors
+> Task :feature-review:javaPreCompileDebug
+> Task :feature-scan:javaPreCompileDebug
+> Task :feature-history:compileDebugKotlin
+> Task :feature-auth:compileDebugKotlin
+> Task :feature-review:compileDebugKotlin
+> Task :feature-scan:compileDebugKotlin
+> Task :feature-auth:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:javaPreCompileDebug
+> Task :feature-auth:bundleLibCompileToJarDebug
+> Task :feature-history:compileDebugJavaWithJavac NO-SOURCE
+> Task :feature-history:bundleLibCompileToJarDebug
+> Task :feature-review:compileDebugJavaWithJavac NO-SOURCE
+> Task :feature-review:bundleLibCompileToJarDebug
+> Task :feature-scan:compileDebugJavaWithJavac NO-SOURCE
+> Task :feature-scan:bundleLibCompileToJarDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :data-local:mergeDebugShaders
+> Task :data-local:compileDebugShaders NO-SOURCE
+> Task :data-local:generateDebugAssets UP-TO-DATE
+> Task :data-local:packageDebugAssets
+> Task :data-ocr:mergeDebugShaders
+> Task :data-ocr:compileDebugShaders NO-SOURCE
+> Task :data-ocr:generateDebugAssets UP-TO-DATE
+> Task :data-ocr:packageDebugAssets
+> Task :data-parser:mergeDebugShaders
+> Task :data-parser:compileDebugShaders NO-SOURCE
+> Task :data-parser:generateDebugAssets UP-TO-DATE
+> Task :data-parser:packageDebugAssets
+> Task :data-ynab:mergeDebugShaders
+> Task :data-ynab:compileDebugShaders NO-SOURCE
+> Task :data-ynab:generateDebugAssets UP-TO-DATE
+> Task :data-ynab:packageDebugAssets
+> Task :domain:mergeDebugShaders
+> Task :domain:compileDebugShaders NO-SOURCE
+> Task :domain:generateDebugAssets UP-TO-DATE
+> Task :domain:packageDebugAssets
+> Task :feature-auth:mergeDebugShaders
+> Task :feature-auth:compileDebugShaders NO-SOURCE
+> Task :feature-auth:generateDebugAssets UP-TO-DATE
+> Task :feature-auth:packageDebugAssets
+> Task :feature-history:mergeDebugShaders
+> Task :feature-history:compileDebugShaders NO-SOURCE
+> Task :feature-history:generateDebugAssets UP-TO-DATE
+> Task :feature-history:packageDebugAssets
+> Task :feature-review:mergeDebugShaders
+> Task :feature-review:compileDebugShaders NO-SOURCE
+> Task :feature-review:generateDebugAssets UP-TO-DATE
+> Task :feature-review:packageDebugAssets
+> Task :feature-scan:mergeDebugShaders
+> Task :feature-scan:compileDebugShaders NO-SOURCE
+> Task :feature-scan:generateDebugAssets UP-TO-DATE
+> Task :feature-scan:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :data-ocr:bundleLibRuntimeToJarDebug
+> Task :data-local:bundleLibRuntimeToJarDebug
+> Task :data-parser:bundleLibRuntimeToJarDebug
+> Task :data-ynab:bundleLibRuntimeToJarDebug
+> Task :domain:bundleLibRuntimeToJarDebug
+> Task :feature-history:bundleLibRuntimeToJarDebug
+> Task :feature-auth:bundleLibRuntimeToJarDebug
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :feature-review:bundleLibRuntimeToJarDebug
+> Task :feature-scan:bundleLibRuntimeToJarDebug
+> Task :app:desugarDebugFileDependencies
+> Task :data-local:processDebugJavaRes
+> Task :data-ocr:processDebugJavaRes
+> Task :data-parser:processDebugJavaRes
+> Task :data-ynab:processDebugJavaRes
+> Task :domain:processDebugJavaRes
+> Task :feature-auth:processDebugJavaRes
+> Task :feature-history:processDebugJavaRes
+> Task :feature-review:processDebugJavaRes
+> Task :feature-scan:processDebugJavaRes
+> Task :app:mergeDebugStartupProfile
+> Task :app:checkDebugDuplicateClasses
+> Task :data-ocr:bundleLibRuntimeToDirDebug
+> Task :data-parser:bundleLibRuntimeToDirDebug
+> Task :data-local:bundleLibRuntimeToDirDebug
+> Task :app:kaptDebugKotlin
+> Task :app:mergeExtDexDebug
+> Task :feature-history:bundleLibRuntimeToDirDebug
+> Task :data-ynab:bundleLibRuntimeToDirDebug
+> Task :feature-auth:bundleLibRuntimeToDirDebug
+> Task :feature-review:bundleLibRuntimeToDirDebug
+> Task :feature-scan:bundleLibRuntimeToDirDebug
+> Task :domain:bundleLibRuntimeToDirDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :data-local:mergeDebugJniLibFolders
+> Task :data-local:mergeDebugNativeLibs NO-SOURCE
+> Task :data-local:copyDebugJniLibsProjectOnly
+> Task :data-ocr:mergeDebugJniLibFolders
+> Task :data-ocr:mergeDebugNativeLibs NO-SOURCE
+> Task :data-ocr:copyDebugJniLibsProjectOnly
+> Task :data-parser:mergeDebugJniLibFolders
+> Task :data-parser:mergeDebugNativeLibs NO-SOURCE
+> Task :data-parser:copyDebugJniLibsProjectOnly
+> Task :data-ynab:mergeDebugJniLibFolders
+> Task :data-ynab:mergeDebugNativeLibs NO-SOURCE
+> Task :data-ynab:copyDebugJniLibsProjectOnly
+> Task :domain:mergeDebugJniLibFolders
+> Task :domain:mergeDebugNativeLibs NO-SOURCE
+> Task :domain:copyDebugJniLibsProjectOnly
+> Task :feature-auth:mergeDebugJniLibFolders
+> Task :feature-auth:mergeDebugNativeLibs NO-SOURCE
+> Task :feature-auth:copyDebugJniLibsProjectOnly
+> Task :feature-history:mergeDebugJniLibFolders
+> Task :feature-history:mergeDebugNativeLibs NO-SOURCE
+> Task :feature-history:copyDebugJniLibsProjectOnly
+> Task :feature-review:mergeDebugJniLibFolders
+> Task :feature-review:mergeDebugNativeLibs NO-SOURCE
+> Task :feature-review:copyDebugJniLibsProjectOnly
+> Task :feature-scan:mergeDebugJniLibFolders
+> Task :feature-scan:mergeDebugNativeLibs NO-SOURCE
+> Task :feature-scan:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:mergeLibDexDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:mergeDebugNativeLibs
+> Task :app:writeDebugSigningConfigVersions
+> Task :domain:preDebugUnitTestBuild UP-TO-DATE
+> Task :domain:generateDebugUnitTestStubRFile UP-TO-DATE
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so.
+
+> Task :domain:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :domain:preReleaseBuild UP-TO-DATE
+> Task :domain:generateReleaseResValues UP-TO-DATE
+> Task :domain:generateReleaseResources UP-TO-DATE
+> Task :domain:packageReleaseResources UP-TO-DATE
+> Task :domain:parseReleaseLocalResources UP-TO-DATE
+> Task :domain:generateReleaseRFile UP-TO-DATE
+> Task :domain:javaPreCompileRelease UP-TO-DATE
+> Task :domain:preReleaseUnitTestBuild UP-TO-DATE
+> Task :domain:generateReleaseUnitTestStubRFile UP-TO-DATE
+> Task :domain:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :domain:compileDebugUnitTestKotlin
+> Task :domain:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :domain:processDebugUnitTestJavaRes
+> Task :domain:compileReleaseKotlin
+
+> Task :app:compileDebugKotlin
+w: file:///Users/parker/code/ynab-receipt-scanner/app/src/main/kotlin/com/ynab/receipts/ReceiptScannerApp.kt:59:9 Parameter 'paddingValues' is never used, could be renamed to _
+w: file:///Users/parker/code/ynab-receipt-scanner/app/src/main/kotlin/com/ynab/receipts/di/AppModule.kt:75:9 This declaration needs opt-in. Its usage should be marked with '@kotlinx.serialization.ExperimentalSerializationApi' or '@OptIn(kotlinx.serialization.ExperimentalSerializationApi::class)'
+
+> Task :domain:testDebugUnitTest
+> Task :app:compileDebugJavaWithJavac FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Cannot access output property 'destinationDirectory' of task ':app:compileDebugJavaWithJavac'. Accessing unreadable inputs or outputs is not supported. Declare the task as untracked by using Task.doNotTrackState(). For more information, please refer to https://docs.gradle.org/8.7/userguide/incremental_build.html#sec:disable-state-tracking in the Gradle documentation.
+   > java.nio.file.NoSuchFileException: /Users/parker/code/ynab-receipt-scanner/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/hilt_aggregated_deps
+
+* Try:
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileDebugJavaWithJavac'.
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:38)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:200)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:195)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:80)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:463)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:380)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+Caused by: org.gradle.internal.deprecation.DocumentedFailure$DocumentedExceptionWithCause: Cannot access output property 'destinationDirectory' of task ':app:compileDebugJavaWithJavac'. Accessing unreadable inputs or outputs is not supported. Declare the task as untracked by using Task.doNotTrackState(). For more information, please refer to https://docs.gradle.org/8.7/userguide/incremental_build.html#sec:disable-state-tracking in the Gradle documentation.
+	at org.gradle.internal.deprecation.DocumentedFailure$Builder.build(DocumentedFailure.java:78)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.decorateSnapshottingException(TaskExecution.java:382)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.visitOutputs(TaskExecution.java:350)
+	at org.gradle.internal.execution.impl.DefaultOutputSnapshotter.snapshotOutputs(DefaultOutputSnapshotter.java:38)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.lambda$captureOutputsAfterExecution$1(CaptureOutputsAfterExecutionStep.java:78)
+	at org.gradle.internal.execution.steps.BuildOperationStep$1.call(BuildOperationStep.java:37)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:200)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:195)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.internal.execution.steps.BuildOperationStep.operation(BuildOperationStep.java:34)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.captureOutputsAfterExecution(CaptureOutputsAfterExecutionStep.java:75)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.lambda$execute$0(CaptureOutputsAfterExecutionStep.java:69)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:45)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:75)
+	at org.gradle.internal.Either$Right.fold(Either.java:175)
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:76)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:54)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:54)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:49)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:27)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:71)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:106)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:55)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:64)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:43)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:125)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:61)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:289)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:48)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:35)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:127)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:200)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:195)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:80)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:463)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:380)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+Caused by: java.io.UncheckedIOException: java.nio.file.NoSuchFileException: /Users/parker/code/ynab-receipt-scanner/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/hilt_aggregated_deps
+	at org.gradle.internal.snapshot.impl.DirectorySnapshotter$PathVisitor.doVisitFileFailed(DirectorySnapshotter.java:473)
+	at org.gradle.internal.snapshot.impl.DirectorySnapshotterStatistics$CollectingFileVisitor.visitFileFailed(DirectorySnapshotterStatistics.java:133)
+	at org.gradle.internal.snapshot.impl.DirectorySnapshotterStatistics$CollectingFileVisitor.visitFileFailed(DirectorySnapshotterStatistics.java:106)
+	at org.gradle.internal.snapshot.impl.DirectorySnapshotter.snapshot(DirectorySnapshotter.java:126)
+	at org.gradle.internal.vfs.impl.DefaultFileSystemAccess.lambda$snapshot$8(DefaultFileSystemAccess.java:177)
+	at org.gradle.internal.vfs.impl.AbstractVirtualFileSystem.store(AbstractVirtualFileSystem.java:90)
+	at org.gradle.internal.vfs.impl.DefaultFileSystemAccess.snapshot(DefaultFileSystemAccess.java:166)
+	at org.gradle.internal.vfs.impl.DefaultFileSystemAccess.lambda$read$0(DefaultFileSystemAccess.java:92)
+	at org.gradle.internal.vfs.impl.DefaultFileSystemAccess.lambda$readSnapshotFromLocation$9(DefaultFileSystemAccess.java:199)
+	at org.gradle.internal.vfs.impl.DefaultFileSystemAccess$StripedProducerGuard.guardByKey(DefaultFileSystemAccess.java:248)
+	at org.gradle.internal.vfs.impl.DefaultFileSystemAccess.lambda$readSnapshotFromLocation$10(DefaultFileSystemAccess.java:196)
+	at org.gradle.internal.vfs.impl.DefaultFileSystemAccess.readSnapshotFromLocation(DefaultFileSystemAccess.java:196)
+	at org.gradle.internal.vfs.impl.DefaultFileSystemAccess.read(DefaultFileSystemAccess.java:89)
+	at org.gradle.internal.fingerprint.impl.DefaultFileCollectionSnapshotter$SnapshottingVisitor.visitCollection(DefaultFileCollectionSnapshotter.java:70)
+	at org.gradle.api.internal.file.AbstractOpaqueFileCollection.visitContents(AbstractOpaqueFileCollection.java:60)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitStructure(AbstractFileCollection.java:361)
+	at org.gradle.api.internal.file.CompositeFileCollection.lambda$visitContents$0(CompositeFileCollection.java:113)
+	at org.gradle.api.internal.file.collections.UnpackingVisitor.visitSingleFile(UnpackingVisitor.java:114)
+	at org.gradle.api.internal.file.collections.UnpackingVisitor.add(UnpackingVisitor.java:109)
+	at org.gradle.api.internal.file.DefaultFileCollectionFactory$ResolvingFileCollection.visitChildren(DefaultFileCollectionFactory.java:285)
+	at org.gradle.api.internal.file.CompositeFileCollection.visitContents(CompositeFileCollection.java:113)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitStructure(AbstractFileCollection.java:361)
+	at org.gradle.internal.fingerprint.impl.DefaultFileCollectionSnapshotter.snapshot(DefaultFileCollectionSnapshotter.java:47)
+	at org.gradle.internal.execution.impl.DefaultOutputSnapshotter$1.visitOutputProperty(DefaultOutputSnapshotter.java:43)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.visitOutputs(TaskExecution.java:344)
+	... 94 more
+Caused by: java.nio.file.NoSuchFileException: /Users/parker/code/ynab-receipt-scanner/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/hilt_aggregated_deps
+	... 116 more
+
+
+BUILD FAILED in 1m 16s
+230 actionable tasks: 114 executed, 116 up-to-date
